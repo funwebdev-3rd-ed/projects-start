@@ -1,0 +1,100 @@
+:root {
+    --top: #0b245b;
+    --side: #0253b3;
+    --back: #faf8ef;
+    --boxes: #93c9fa;
+    --text: #174240;    
+  }
+  html {
+    /* Makes our life easier ... now width property is actual width */
+    box-sizing: border-box;
+    font-family: 'Open Sans', "Segoe UI", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  
+    color: var(--text);
+  }
+  
+  /*
+    Best practice for making everything use our default box-sizing (but still allows for overriding)
+    https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+  */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    background-color: var(--back);
+    min-height: calc(100vh - 100px);
+    letter-spacing: -1px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 5px 0;
+  }
+
+  h2 {
+    font-weight: 300;
+  }
+  h4 {
+      font-weight: 600;
+      margin-top: 0.5em;
+  }
+
+.container {
+
+}
+
+
+/*---------------------------------------------------*/
+
+header, footer {
+
+  color: var(--back);
+}
+header {
+  background-color: var(--top);
+
+}
+header div img {
+    width: 10%;
+    opacity: 0.25;
+    margin: 0.25em;
+}
+
+/*---------------------------------------------------*/
+
+aside {
+  background-color: var(--side);  
+  color: #e6ded3;
+
+}
+aside img {
+    width: 25%;
+    opacity: 0.35;
+}
+
+
+/*---------------------------------------------------*/
+
+main {
+
+}
+
+
+
+footer {
+
+  background-color: var(--top);
+  color: var(--back);
+
+}
+
+
+

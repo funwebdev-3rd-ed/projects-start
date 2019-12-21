@@ -1,0 +1,42 @@
+National Gallery of Art
+6th & Constitution Ave NW
+Washington, DC, USA
+http://www.nga.gov/content/ngaweb.html
+38.89147,-77.02001
+Open to the public and free of charge, the museum was privately established in 1937 for the American people by a joint resolution of the United States Congress.
+
+
+J. Paul Getty Museum
+1200 Getty Center Dr
+Los Angeles, CA, USA
+http://www.getty.edu/museum/
+34.0775,-118.475
+
+
+Rijksmuseum
+Museumstraat 1, 1071 XX
+Amsterdam, Netherlands
+http://www.rijksmuseum.nl/
+52.36,4.885278
+This Dutch national museum has on display 8,000 objects of art and history, from their total collection of 1 million objects from the years 1200–2000, among which are some masterpieces by Rembrandt, Frans Hals, and Johannes Vermeer. 
+
+
+Hermitage Museum
+Palace Square, 2
+St. Petersburg, Russia
+http://www.hermitagemuseum.org/
+59.941,30.3129
+
+
+Brera Art Gallery
+Via Brera, 28, 20121
+Milan, Italy
+http://www.brera.beniculturali.it/
+45.471944,9.188056
+
+
+Louvre Museum
+Rue de Rivoli, 75001
+Paris, France
+http://www.louvre.fr/
+48.8611,2.33638
