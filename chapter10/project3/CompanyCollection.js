@@ -1,0 +1,1 @@
+/* create a module that is responsible for fetching and displaying the companies */

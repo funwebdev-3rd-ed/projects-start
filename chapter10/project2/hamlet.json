@@ -1,0 +1,2679 @@
+const hamlet = `
+   { 
+      "title": "The Tragedy of Hamlet, Prince of Denmark",
+      "short": "Hamlet",
+      "persona": [
+        { "position": 1, "player": "CLAUDIUS", "desc": "king of Denmark" },
+        { "position": 1,"player": "HAMLET", "desc": "son to the late, and nephew to the present king" },
+        { "position": 1,"player": "POLONIUS", "desc": "lord chamberlain" },
+        { "position": 1, "player": "HORATIO", "desc": "friend to Hamlet" },
+        { "position": 1,"player": "LAERTES", "desc": "son to Polonius" },
+        { "position": 1,"player": "GERTRUDE", "desc": "queen of Denmark, and mother to Hamlet" },                
+        { "position": 1,"player": "OPHELIA", "desc": "daughter to Polonius" },
+        { "position": 2,"player": "GHOST", "desc": "ghost of Hamlet's Father" },        
+        { "position": 2,"player": "LUCIANUS", "desc": "nephew to the king" },
+        { "position": 2,"player": "VOLTIMAND", "desc": "courtiers" },
+        { "position": 2,"player": "CORNELIUS", "desc": "courtiers" },
+        { "position": 2,"player": "ROSENCRANTZ", "desc": "courtiers" },
+        { "position": 2,"player": "GUILDENSTERN", "desc": "courtiers" },
+        { "position": 3,"player": "MARCELLUS", "desc": "officers" },
+        { "position": 3,"player": "BERNARDO", "desc": "officers" },
+        { "position": 3,"player": "FRANCISCO", "desc": "a soldier" },
+        { "position": 3,"player": "REYNALDO", "desc": "servant to Polonius" }
+      ],
+      "acts":[
+         {
+           "name":"ACT I",
+           "scenes":[
+             {
+               "name":"SCENE I",
+               "title":"Elsinore. A platform before the castle",
+               "stageDirection":"FRANCISCO at his post. Enter to him BERNARDO",
+               "speeches":[
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Who's there?"
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "Nay, answer me: stand, and unfold yourself."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Long live the king!"
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "Bernardo?"
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "He."
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "You come most carefully upon your hour."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "'Tis now struck twelve; get thee to bed, Francisco."
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "For this relief much thanks: 'tis bitter cold,",
+                     "And I am sick at heart."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Have you had quiet guard?"
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "Not a mouse stirring."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Well, good night.",
+                     "If you do meet Horatio and Marcellus,",
+                     "he rivals of my watch, bid them make haste."
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "I think I hear them. Stand, ho! Who's there?"
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "Friends to this ground."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "And liegemen to the Dane."
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "Give you good night."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "O, farewell, honest soldier:",
+                     "Who hath relieved you?"
+                   ]
+                 },
+                 {
+                   "speaker":"FRANCISCO",
+                   "lines":[
+                     "Bernardo has my place.",
+                     "Give you good night."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Holla! Bernardo!"
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Say,",
+                     "What, is Horatio there?"
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "A piece of him."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Welcome, Horatio: welcome, good Marcellus."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "What, has this thing appear'd again to-night?"
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "I have seen nothing."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Horatio says 'tis but our fantasy,",
+                     "And will not let belief take hold of him",
+                     "Touching this dreaded sight, twice seen of us:",
+                     "Therefore I have entreated him along",
+                     "With us to watch the minutes of this night;",
+                     "That if again this apparition come,",
+                     "He may approve our eyes and speak to it."
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "Tush, tush, 'twill not appear."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Sit down awhile;",
+                     "And let us once again assail your ears,",
+                     "That are so fortified against our story",
+                     "What we have two nights seen."
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "Well, sit we down,",
+                     "And let us hear Bernardo speak of this."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Last night of all,",
+                     "When yond same star that's westward from the pole",
+                     "Had made his course to illume that part of heaven",
+                     "Where now it burns, Marcellus and myself,",
+                     "The bell then beating one,--"
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Peace, break thee off; look, where it comes again!"
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "In the same figure, like the king that's dead."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Thou art a scholar; speak to it, Horatio."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "Looks it not like the king?  mark it, Horatio."
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "Most like: it harrows me with fear and wonder."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "It would be spoke to."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Question it, Horatio."
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "What art thou that usurp'st this time of night,",
+                     "Together with that fair and warlike form",
+                     "In which the majesty of buried Denmark",
+                     "Did sometimes march? by heaven I charge thee, speak!"
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "It is offended."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "See, it stalks away!"
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "Stay! speak, speak! I charge thee, speak!"
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "'Tis gone, and will not answer."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "How now, Horatio! you tremble and look pale:",
+                     "Is not this something more than fantasy?",
+                     "What think you on't?"
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "Before my God, I might not this believe",
+                     "Without the sensible and true avouch",
+                     "Of mine own eyes."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Is it not like the king?"
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "As thou art to thyself:",
+                     "Such was the very armour he had on",
+                     "When he the ambitious Norway combated;",
+                     "So frown'd he once, when, in an angry parle,",
+                     "He smote the sledded Polacks on the ice.",
+                     "'Tis strange."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Thus twice before, and jump at this dead hour,",
+                     "With martial stalk hath he gone by our watch."
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "In what particular thought to work I know not;",
+                     "But in the gross and scope of my opinion,",
+                     "This bodes some strange eruption to our state."
+                   ]
+                 },
+                 {
+                   "speaker":"MARCELLUS",
+                   "lines":[
+                     "Good now, sit down, and tell me, he that knows,",
+                     "Why this same strict and most observant watch",
+                     "So nightly toils the subject of the land,",
+                     "And why such daily cast of brazen cannon,",
+                     "And foreign mart for implements of war;",
+                     "Why such impress of shipwrights, whose sore task",
+                     "Does not divide the Sunday from the week;",
+                     "What might be toward, that this sweaty haste",
+                     "Doth make the night joint-labourer with the day:",
+                     "Who is't that can inform me?"
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "At least, the whisper goes so. Our last king,",
+                     "Whose image even but now appear'd to us,",
+                     "Was, as you know, by Fortinbras of Norway,",
+                     "Thereto prick'd on by a most emulate pride,",
+                     "Dared to the combat; in which our valiant Hamlet--",
+                     "For so this side of our known world esteem'd him--",
+                     "Did slay this Fortinbras; who by a seal'd compact,",
+                     "Well ratified by law and heraldry,",
+                     "Did forfeit, with his life, all those his lands",
+                     "Which he stood seized of, to the conqueror:",
+                     "Against the which, a moiety competent",
+                     "Was gaged by our king; which had return'd",
+                     "To the inheritance of Fortinbras,",
+                     "Had he been vanquisher; as, by the same covenant,",
+                     "And carriage of the article design'd,",
+                     "His fell to Hamlet. Now, sir, young Fortinbras,",
+                     "Of unimproved mettle hot and full,",
+                     "Hath in the skirts of Norway here and there",
+                     "Shark'd up a list of lawless resolutes,",
+                     "For food and diet, to some enterprise",
+                     "That hath a stomach in't; which is no other--",
+                     "As it doth well appear unto our state--",
+                     "But to recover of us, by strong hand",
+                     "And terms compulsatory, those foresaid lands",
+                     "So by his father lost: and this, I take it,",
+                     "Is the main motive of our preparations,",
+                     "The source of this our watch and the chief head",
+                     "Of this post-haste and romage in the land."
+                   ]
+                 },
+                 {
+                   "speaker":"BERNARDO",
+                   "lines":[
+                     "I think it be no other but e'en so:",
+                     "Well may it sort that this portentous figure",
+                     "Comes armed through our watch; so like the king",
+                     "That was and is the question of these wars."
+                   ]
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "A mote it is to trouble the mind's eye.",
+                     "In the most high and palmy state of Rome,",
+                     "A little ere the mightiest Julius fell,",
+                     "The graves stood tenantless and the sheeted dead",
+                     "Did squeak and gibber in the Roman streets:",
+                     "As stars with trains of fire and dews of blood,",
+                     "Disasters in the sun; and the moist star",
+                     "Upon whose influence Neptune's empire stands",
+                     "Was sick almost to doomsday with eclipse:",
+                     "And even the like precurse of fierce events,",
+                     "As harbingers preceding still the fates",
+                     "And prologue to the omen coming on,",
+                     "Have heaven and earth together demonstrated",
+                     "Unto our climatures and countrymen.--",
+                     "But soft, behold! lo, where it comes again!"
+                   ],
+                   "stagedir": "Re-enter Ghost"                 
+                 },
+                 {
+                   "speaker":"HORATIO",
+                   "lines":[
+                     "I'll cross it, though it blast me. Stay, illusion!",
+                     "If thou hast any sound, or use of voice,",
+                     "Speak to me:",
+                     "If thou art privy to thy country's fate,",
+                     "Which, happily, foreknowing may avoid, O, speak!",
+                     "Or if thou hast uphoarded in thy life",
+                     "Extorted treasure in the womb of earth,",
+                     "For which, they say, you spirits oft walk in death,",
+                     "Speak of it: stay, and speak! Stop it, Marcellus."
+                   ]
+                 },
+                 {
+                  "speaker": "MARCELLUS",
+                  "lines": ["Shall I strike at it with my partisan?"]
+                },
+                {
+                  "speaker": "HORATIO",
+                  "lines": ["Do, if it will not stand."]
+                },
+                {
+                  "speaker": "BERNARDO",
+                  "lines": ["'Tis here!"]
+                },
+                {
+                  "speaker": "HORATIO",
+                  "lines": ["'Tis here!"]
+                },
+                {
+                  "speaker": "MARCELLUS",
+                  "lines": [
+                    "'Tis gone!",
+                    "We do it wrong, being so majestical,",
+                    "To offer it the show of violence;",
+                    "For it is, as the air, invulnerable,",
+                    "And our vain blows malicious mockery."
+                  ],
+                  "stagedir": "Exit Ghost"
+                },
+                {
+                  "speaker": "BERNARDO",
+                  "lines": ["It was about to speak, when the cock crew."]
+                },
+                {
+                  "speaker": "HORATIO",
+                  "lines": [
+                    "And then it started like a guilty thing",
+                    "Upon a fearful summons. I have heard,",
+                    "The cock, that is the trumpet to the morn,",
+                    "Doth with his lofty and shrill-sounding throat",
+                    "Awake the god of day; and, at his warning,",
+                    "Whether in sea or fire, in earth or air,",
+                    "The extravagant and erring spirit hies",
+                    "To his confine: and of the truth herein",
+                    "This present object made probation."
+                  ]
+                },
+                {
+                  "speaker": "MARCELLUS",
+                  "lines": [
+                    "It faded on the crowing of the cock.",
+                    "Some say that ever 'gainst that season comes",
+                    "Wherein our Saviour's birth is celebrated,",
+                    "The bird of dawning singeth all night long:",
+                    "And then, they say, no spirit dares stir abroad;",
+                    "The nights are wholesome; then no planets strike,",
+                    "No fairy takes, nor witch hath power to charm,",
+                    "So hallow'd and so gracious is the time."
+                  ]
+                },
+                {
+                  "speaker": "HORATIO",
+                  "lines": [
+                    "So have I heard and do in part believe it.",
+                    "But, look, the morn, in russet mantle clad,",
+                    "Walks o'er the dew of yon high eastward hill:",
+                    "Break we our watch up; and by my advice,",
+                    "Let us impart what we have seen to-night",
+                    "Unto young Hamlet; for, upon my life,",
+                    "This spirit, dumb to us, will speak to him.",
+                    "Do you consent we shall acquaint him with it,",
+                    "As needful in our loves, fitting our duty?"
+                  ]
+                },
+                {
+                  "speaker": "MARCELLUS",
+                  "lines": [
+                    "Let's do't, I pray; and I this morning know",
+                    "Where we shall find him most conveniently."
+                  ]
+                }               
+               ]
+             },
+             {
+               "name":"SCENE II",
+               "title":"A room of state in the castle.",
+               "stageDirection":"Enter KING CLAUDIUS, QUEEN GERTRUDE, HAMLET, POLONIUS, LAERTES, VOLTIMAND, CORNELIUS, Lords, and Attendants",
+               "speeches":[
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "Though yet of Hamlet our dear brother's death",
+                     "The memory be green, and that it us befitted",
+                     "To bear our hearts in grief and our whole kingdom",
+                     "To be contracted in one brow of woe,",
+                     "Yet so far hath discretion fought with nature",
+                     "That we with wisest sorrow think on him,",
+                     "Together with remembrance of ourselves.",
+                     "Therefore our sometime sister, now our queen,",
+                     "The imperial jointress to this warlike state,",
+                     "Have we, as 'twere with a defeated joy,--",
+                     "With an auspicious and a dropping eye,",
+                     "With mirth in funeral and with dirge in marriage,",
+                     "In equal scale weighing delight and dole,--",
+                     "Taken to wife: nor have we herein barr'd",
+                     "Your better wisdoms, which have freely gone",
+                     "With this affair along. For all, our thanks.",
+                     "Now follows, that you know, young Fortinbras,",
+                     "Holding a weak supposal of our worth,",
+                     "Or thinking by our late dear brother's death",
+                     "Our state to be disjoint and out of frame,",
+                     "Colleagued with the dream of his advantage,",
+                     "He hath not fail'd to pester us with message,",
+                     "Importing the surrender of those lands",
+                     "Lost by his father, with all bonds of law,",
+                     "To our most valiant brother. So much for him.",
+                     "Now for ourself and for this time of meeting:",
+                     "Thus much the business is: we have here writ",
+                     "To Norway, uncle of young Fortinbras,--",
+                     "Who, impotent and bed-rid, scarcely hears",
+                     "Of this his nephew's purpose,--to suppress",
+                     "His further gait herein; in that the levies,",
+                     "The lists and full proportions, are all mad",
+                     "Out of his subject: and we here dispatch",
+                     "You, good Cornelius, and you, Voltimand,",
+                     "For bearers of this greeting to old Norway;",
+                     "Giving to you no further personal power",
+                     "To business with the king, more than the scope",
+                     "Of these delated articles allow.",
+                     "Farewell, and let your haste commend your duty."
+                   ]
+                 },
+                 {
+                   "speaker":"CORNELIUS",
+                   "lines":[
+                     "In that and all things will we show our duty."
+                   ]
+                 },
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "We doubt it nothing: heartily farewell.",
+                     "And now, Laertes, what's the news with you?",
+                     "You told us of some suit; what is't, Laertes?",
+                     "You cannot speak of reason to the Dane,",
+                     "And loose your voice: what wouldst thou beg, Laertes,",
+                     "That shall not be my offer, not thy asking?",
+                     "The head is not more native to the heart,",
+                     "The hand more instrumental to the mouth,",
+                     "Than is the throne of Denmark to thy father.",
+                     "What wouldst thou have, Laertes?"
+                   ],
+                   "stagedir": "Exeunt VOLTIMAND and CORNELIUS"                 
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "My dread lord,",
+                     "Your leave and favour to return to France;",
+                     "From whence though willingly I came to Denmark,",
+                     "To show my duty in your coronation,",
+                     "Yet now, I must confess, that duty done,",
+                     "My thoughts and wishes bend again toward France",
+                     "And bow them to your gracious leave and pardon."
+                   ]
+                 },
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "Have you your father's leave? What says Polonius?"
+                   ]
+                 },
+                 {
+                   "speaker":"POLONIUS",
+                   "lines":[
+                     "He hath, my lord, wrung from me my slow leave",
+                     "By laboursome petition, and at last",
+                     "Upon his will I seal'd my hard consent:",
+                     "I do beseech you, give him leave to go."
+                   ]
+                 },
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "Take thy fair hour, Laertes; time be thine,",
+                     "And thy best graces spend it at thy will!",
+                     "But now, my cousin Hamlet, and my son,--"
+                   ]
+                 },
+                 {
+                   "speaker":"HAMLET",
+                   "lines":[
+                     "A little more than kin, and less than kind."
+                   ]
+                 },
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "How is it that the clouds still hang on you?"
+                   ]
+                 },
+                 {
+                   "speaker":"HAMLET",
+                   "lines":[
+                     "Not so, my lord; I am too much i' the sun."
+                   ]
+                 },
+                 {
+                   "speaker":"GERTRUDE",
+                   "lines":[
+                     "Good Hamlet, cast thy nighted colour off,",
+                     "And let thine eye look like a friend on Denmark.",
+                     "Do not for ever with thy vailed lids",
+                     "Seek for thy noble father in the dust:",
+                     "Thou know'st 'tis common; all that lives must die",
+                     "Passing through nature to eternity."
+                   ]
+                 },
+                 {
+                   "speaker":"HAMLET",
+                   "lines":[
+                     "Ay, madam, it is common."
+                   ]
+                 },
+                 {
+                   "speaker":"GERTRUDE",
+                   "lines":[
+                     "If it be,",
+                     "Why seems it so particular with thee?"
+                   ]
+                 },
+                 {
+                   "speaker":"HAMLET",
+                   "lines":[
+                     "Seems, madam! nay it is; I know not 'seems.'",
+                     "'Tis not alone my inky cloak, good mother,",
+                     "Nor customary suits of solemn black,",
+                     "Nor windy suspiration of forced breath,",
+                     "No, nor the fruitful river in the eye,",
+                     "Nor the dejected 'havior of the visage,",
+                     "Together with all forms, moods, shapes of grief,",
+                     "That can denote me truly: these indeed seem,",
+                     "For they are actions that a man might play:",
+                     "But I have that within which passeth show;",
+                     "These but the trappings and the suits of woe."
+                   ]
+                 },
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "'Tis sweet and commendable in your nature, Hamlet,",
+                     "To give these mourning duties to your father:",
+                     "But, you must know, your father lost a father;",
+                     "That father lost, lost his, and the survivor bound",
+                     "In filial obligation for some term",
+                     "To do obsequious sorrow: but to persever",
+                     "In obstinate condolement is a course",
+                     "Of impious stubbornness; 'tis unmanly grief;",
+                     "It shows a will most incorrect to heaven,",
+                     "A heart unfortified, a mind impatient,",
+                     "An understanding simple and unschool'd:",
+                     "For what we know must be and is as common",
+                     "As any the most vulgar thing to sense,",
+                     "Why should we in our peevish opposition",
+                     "Take it to heart? Fie! 'tis a fault to heaven,",
+                     "A fault against the dead, a fault to nature,",
+                     "To reason most absurd: whose common theme",
+                     "Is death of fathers, and who still hath cried,",
+                     "From the first corse till he that died to-day,",
+                     "'This must be so.' We pray you, throw to earth",
+                     "This unprevailing woe, and think of us",
+                     "As of a father: for let the world take note,",
+                     "You are the most immediate to our throne;",
+                     "And with no less nobility of love",
+                     "Than that which dearest father bears his son,",
+                     "Do I impart toward you. For your intent",
+                     "In going back to school in Wittenberg,",
+                     "It is most retrograde to our desire:",
+                     "And we beseech you, bend you to remain",
+                     "Here, in the cheer and comfort of our eye,",
+                     "Our chiefest courtier, cousin, and our son."
+                   ]
+                 },
+                 {
+                   "speaker":"GERTRUDE",
+                   "lines":[
+                     "Let not thy mother lose her prayers, Hamlet:",
+                     "I pray thee, stay with us; go not to Wittenberg."
+                   ]
+                 },
+                 {
+                   "speaker":"HAMLET",
+                   "lines":[
+                     "I shall in all my best obey you, madam."
+                   ]
+                 },
+                 {
+                   "speaker":"CLAUDIUS",
+                   "lines":[
+                     "Why, 'tis a loving and a fair reply:",
+                     "Be as ourself in Denmark. Madam, come;",
+                     "This gentle and unforced accord of Hamlet",
+                     "Sits smiling to my heart: in grace whereof,",
+                     "No jocund health that Denmark drinks to-day,",
+                     "But the great cannon to the clouds shall tell,",
+                     "And the king's rouse the heavens all bruit again,",
+                     "Re-speaking earthly thunder. Come away."
+                   ]
+                 },
+                 {
+                   "speaker":"HAMLET",
+                   "lines":[
+                     "O, that this too too solid flesh would melt",
+                     "Thaw and resolve itself into a dew!",
+                     "Or that the Everlasting had not fix'd",
+                     "His canon 'gainst self-slaughter! O God! God!",
+                     "How weary, stale, flat and unprofitable,",
+                     "Seem to me all the uses of this world!",
+                     "Fie on't! ah fie! 'tis an unweeded garden,",
+                     "That grows to seed; things rank and gross in nature",
+                     "Possess it merely. That it should come to this!",
+                     "But two months dead: nay, not so much, not two:",
+                     "So excellent a king; that was, to this,",
+                     "Hyperion to a satyr; so loving to my mother",
+                     "That he might not beteem the winds of heaven",
+                     "Visit her face too roughly. Heaven and earth!",
+                     "Must I remember? why, she would hang on him",
+                     "As if increase of appetite had grown",
+                     "By what it fed on: and yet, within a month--",
+                     "Let me not think on't--Frailty, thy name is woman!--",
+                     "A little month, or ere those shoes were old",
+                     "With which she follow'd my poor father's body,",
+                     "Like Niobe, all tears:--why she, even she--",
+                     "O, God! a beast, that wants discourse of reason,",
+                     "Would have mourn'd longer--married with my uncle,",
+                     "My father's brother, but no more like my father",
+                     "Than I to Hercules: within a month:",
+                     "Ere yet the salt of most unrighteous tears",
+                     "Had left the flushing in her galled eyes,",
+                     "She married. O, most wicked speed, to post",
+                     "With such dexterity to incestuous sheets!",
+                     "It is not nor it cannot come to good:",
+                     "But break, my heart; for I must hold my tongue."
+                   ]
+                 },
+                 {
+                          "speaker": "HORATIO",
+                          "lines":  ["Hail to your lordship!"]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "I am glad to see you well:",
+                             "Horatio,--or I do forget myself."
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["The same, my lord, and your poor servant ever."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "Sir, my good friend; I'll change that name with you:",
+                             "And what make you from Wittenberg, Horatio? Marcellus?"
+                          ]
+                       },
+                       {
+                          "speaker": "MARCELLUS",
+                          "lines":  ["My good lord--"]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "I am very glad to see you. Good even, sir.",
+                             "But what, in faith, make you from Wittenberg?"
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["A truant disposition, good my lord."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "I would not hear your enemy say so,",
+                             "Nor shall you do mine ear that violence,",
+                             "To make it truster of your own report",
+                             "Against yourself: I know you are no truant.",
+                             "But what is your affair in Elsinore?",
+                             "We'll teach you to drink deep ere you depart."
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["My lord, I came to see your father's funeral."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "I pray thee, do not mock me, fellow-student;",
+                             "I think it was to see my mother's wedding."
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["Indeed, my lord, it follow'd hard upon."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "Thrift, thrift, Horatio! the funeral baked meats",
+                             "Did coldly furnish forth the marriage tables.",
+                             "Would I had met my dearest foe in heaven",
+                             "Or ever I had seen that day, Horatio!",
+                             "My father!--methinks I see my father."
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["Where, my lord?"]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["In my mind's eye, Horatio."]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["I saw him once; he was a goodly king."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "He was a man, take him for all in all,",
+                             "I shall not look upon his like again."
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["My lord, I think I saw him yesternight."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["Saw? who?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["My lord, the king your father."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["The king my father!"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines": [
+                             "Season your admiration for awhile",
+                             "With an attent ear, till I may deliver,",
+                             "Upon the witness of these gentlemen,",
+                             "This marvel to you."
+                          ]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["For God's love, let me hear."]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines": [
+                             "Two nights together had these gentlemen,",
+                             "Marcellus and Bernardo, on their watch,",
+                             "In the dead vast and middle of the night,",
+                             "Been thus encounter'd. A figure like your father,",
+                             "Armed at point exactly, cap-a-pe,",
+                             "Appears before them, and with solemn march",
+                             "Goes slow and stately by them: thrice he walk'd",
+                             "By their oppress'd and fear-surprised eyes,",
+                             "Within his truncheon's length; whilst they, distilled",
+                             "Almost to jelly with the act of fear,",
+                             "Stand dumb and speak not to him. This to me",
+                             "In dreadful secrecy impart they did;",
+                             "And I with them the third night kept the watch;",
+                             "Where, as they had deliver'd, both in time,",
+                             "Form of the thing, each word made true and good,",
+                             "The apparition comes: I knew your father;",
+                             "These hands are not more like."
+                          ]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["But where was this?"]
+                       },
+                       {
+                          "speaker": "MARCELLUS",
+                          "lines":  ["My lord, upon the platform where we watch'd."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["Did you not speak to it?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines": [
+                             "My lord, I did;",
+                             "But answer made it none: yet once methought",
+                             "It lifted up its head and did address",
+                             "Itself to motion, like as it would speak;",
+                             "But even then the morning cock crew loud,",
+                             "And at the sound it shrunk in haste away,",
+                             "And vanish'd from our sight."
+                          ]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["'Tis very strange."]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines": [
+                             "As I do live, my honour'd lord, 'tis true;",
+                             "And we did think it writ down in our duty",
+                             "To let you know of it."
+                          ]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "Indeed, indeed, sirs, but this troubles me.",
+                             "Hold you the watch to-night?"
+                          ]
+                       },
+                       {
+                          "speaker": 									"MARCELLUS",
+                          "lines":  ["We do, my lord."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["Arm'd, say you?"]
+                       },
+                       {
+                          "speaker": 									"MARCELLUS",
+                          "lines":  ["Arm'd, my lord."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["From top to toe?"]
+                       },
+                       {
+                          "speaker": "MARCELLUS",
+                          "lines":  ["My lord from head to foot."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["Then saw you not his face?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["O, yes, my lord; he wore his beaver up."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["What, look'd he frowningly?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["A countenance more in sorrow than in anger."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["Pale or red?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["Nay, very pale."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["And fix'd his eyes upon you?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["Most constantly."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["I would I had been there."]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["It would have much amazed you."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["Very like, very like. Stay'd it long?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["While one with moderate haste might tell a hundred."]
+                       },
+                       {
+                          "speaker": "MARCELLUS",
+                          "lines":  ["Longer, longer."]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["Not when I saw't."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines":  ["His beard was grizzled--no?"]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines": [
+                             "It was, as I have seen it in his life,",
+                             "A sable silver'd."
+                          ]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "I will watch to-night;",
+                             "Perchance 'twill walk again."
+                          ]
+                       },
+                       {
+                          "speaker": "HORATIO",
+                          "lines":  ["I warrant it will."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "If it assume my noble father's person,",
+                             "I'll speak to it, though hell itself should gape",
+                             "And bid me hold my peace. I pray you all,",
+                             "If you have hitherto conceal'd this sight,",
+                             "Let it be tenable in your silence still;",
+                             "And whatsoever else shall hap to-night,",
+                             "Give it an understanding, but no tongue:",
+                             "I will requite your loves. So, fare you well:",
+                             "Upon the platform, 'twixt eleven and twelve,",
+                             "I'll visit you."
+                          ]
+                       },
+                       {
+                          "speaker": "All",
+                          "lines":  ["Our duty to your honour."]
+                       },
+                       {
+                          "speaker": "HAMLET",
+                          "lines": [
+                             "Your loves, as mine to you: farewell.",
+                             "My father's spirit in arms! all is not well;",
+                             "I doubt some foul play: would the night were come!",
+                             "Till then sit still, my soul: foul deeds will rise,",
+                             "Though all the earth o'erwhelm them, to men's eyes."
+                          ],
+                          "stagedir": "Exeunt all but HAMLET"
+                       }               
+               ]
+             },
+             {
+               "name":"SCENE III",
+               "title":"A room in Polonius' house.",
+               "stageDirection":"Enter LAERTES and OPHELIA",
+               "speeches":[
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "My necessaries are embark'd: farewell:",
+                     "And, sister, as the winds give benefit",
+                     "And convoy is assistant, do not sleep,",
+                     "But let me hear from you."
+                   ]
+                 },
+                 {
+                   "speaker":"OPHELIA",
+                   "lines":[
+                     "Do you doubt that?"
+                   ]
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "For Hamlet and the trifling of his favour,",
+                     "Hold it a fashion and a toy in blood,",
+                     "A violet in the youth of primy nature,",
+                     "Forward, not permanent, sweet, not lasting,",
+                     "The perfume and suppliance of a minute; No more"
+                   ]
+                 },
+                 {
+                   "speaker":"OPHELIA",
+                   "lines":[
+                     "No more but so?"
+                   ]
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "Think it no more;",
+                     "For nature, crescent, does not grow alone",
+                     "In thews and bulk, but, as this temple waxes,",
+                     "The inward service of the mind and soul",
+                     "Grows wide withal. Perhaps he loves you now,",
+                     "And now no soil nor cautel doth besmirch",
+                     "The virtue of his will: but you must fear,",
+                     "His greatness weigh'd, his will is not his own;",
+                     "For he himself is subject to his birth:",
+                     "He may not, as unvalued persons do,",
+                     "Carve for himself; for on his choice depends",
+                     "The safety and health of this whole state;",
+                     "And therefore must his choice be circumscribed",
+                     "Unto the voice and yielding of that body",
+                     "Whereof he is the head. Then if he says he loves you,",
+                     "It fits your wisdom so far to believe it",
+                     "As he in his particular act and place",
+                     "May give his saying deed; which is no further",
+                     "Than the main voice of Denmark goes withal.",
+                     "Then weigh what loss your honour may sustain,",
+                     "If with too credent ear you list his songs,",
+                     "Or lose your heart, or your chaste treasure open",
+                     "To his unmaster'd importunity.",
+                     "Fear it, Ophelia, fear it, my dear sister,",
+                     "And keep you in the rear of your affection,",
+                     "Out of the shot and danger of desire.",
+                     "The chariest maid is prodigal enough,",
+                     "If she unmask her beauty to the moon:",
+                     "Virtue itself 'scapes not calumnious strokes:",
+                     "The canker galls the infants of the spring,",
+                     "Too oft before their buttons be disclosed,",
+                     "And in the morn and liquid dew of youth",
+                     "Contagious blastments are most imminent.",
+                     "Be wary then; best safety lies in fear:",
+                     "Youth to itself rebels, though none else near."
+                   ]
+                 },
+                 {
+                   "speaker":"OPHELIA",
+                   "lines":[
+                     "I shall the effect of this good lesson keep,",
+                     "As watchman to my heart. But, good my brother,",
+                     "Do not, as some ungracious pastors do,",
+                     "Show me the steep and thorny way to heaven;",
+                     "Whiles, like a puff'd and reckless libertine,",
+                     "Himself the primrose path of dalliance treads,",
+                     "And recks not his own rede."
+                   ]
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "O, fear me not.",
+                     "I stay too long: but here my father comes.",
+                     "A double blessing is a double grace,",
+                     "Occasion smiles upon a second leave."
+                   ]
+                 },
+                 {
+                   "speaker":"POLONIUS",
+                   "lines":[
+                     "Yet here, Laertes! aboard, aboard, for shame!",
+                     "The wind sits in the shoulder of your sail,",
+                     "And you are stay'd for. There; my blessing with thee!",
+                     "And these few precepts in thy memory",
+                     "See thou character. Give thy thoughts no tongue,",
+                     "Nor any unproportioned thought his act.",
+                     "Be thou familiar, but by no means vulgar",
+                     "Those friends thou hast, and their adoption tried,<",
+                     "Grapple them to thy soul with hoops of steel;",
+                     "But do not dull thy palm with entertainment",
+                     "Of each new-hatch'd, unfledged comrade. Beware",
+                     "Of entrance to a quarrel, but being in,",
+                     "Bear't that the opposed may beware of thee.",
+                     "Give every man thy ear, but few thy voice;",
+                     "Take each man's censure, but reserve thy judgment.",
+                     "Costly thy habit as thy purse can buy,",
+                     "But not express'd in fancy; rich, not gaudy;",
+                     "For the apparel oft proclaims the man,",
+                     "And they in France of the best rank and station",
+                     "Are of a most select and generous chief in that.",
+                     "Neither a borrower nor a lender be;",
+                     "For loan oft loses both itself and friend,",
+                     "And borrowing dulls the edge of husbandry.",
+                     "This above all: to thine ownself be true,",
+                     "And it must follow, as the night the day,",
+                     "Thou canst not then be false to any man.",
+                     "Farewell: my blessing season this in thee!"
+                   ]
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "Most humbly do I take my leave, my lord."
+                   ]
+                 },
+                 {
+                   "speaker":"POLONIUS",
+                   "lines":[
+                     "The time invites you; go; your servants tend."
+                   ]
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "Farewell, Ophelia; and remember well",
+                     "What I have said to you."
+                   ]
+                 },
+                 {
+                   "speaker":"OPHELIA",
+                   "lines":[
+                     "'Tis in my memory lock'd,",
+                     "And you yourself shall keep the key of it."
+                   ]
+                 },
+                 {
+                   "speaker":"LAERTES",
+                   "lines":[
+                     "Farewell."
+                   ],
+                   "stagedir": "Exit" 
+                 },
+                 {
+                  "speaker": "POLONIUS",
+                  "lines": ["What is't, Ophelia, be hath said to you?"]
+                },
+                {
+                  "speaker": "OPHELIA",
+                  "lines": ["So please you, something touching the Lord Hamlet."]
+                },
+                {
+                  "speaker": "POLONIUS",
+                  "lines": [
+                    "Marry, well bethought:",
+                    "'Tis told me, he hath very oft of late",
+                    "Given private time to you; and you yourself",
+                    "Have of your audience been most free and bounteous:",
+                    "If it be so, as so 'tis put on me,",
+                    "And that in way of caution, I must tell you,",
+                    "You do not understand yourself so clearly",
+                    "As it behoves my daughter and your honour.",
+                    "What is between you? give me up the truth."
+                  ]
+                },
+                {
+                  "speaker": "OPHELIA",
+                  "lines": [
+                    "He hath, my lord, of late made many tenders",
+                    "Of his affection to me."
+                  ]
+                },
+                {
+                  "speaker": "POLONIUS",
+                  "lines": [
+                    "Affection! pooh! you speak like a green girl,",
+                    "Unsifted in such perilous circumstance.",
+                    "Do you believe his tenders, as you call them?"
+                  ]
+                },
+                {
+                  "speaker": "OPHELIA",
+                  "lines": ["I do not know, my lord, what I should think."]
+                },
+                {
+                  "speaker": "POLONIUS",
+                  "lines": [
+                    "Marry, I'll teach you: think yourself a baby;",
+                    "That you have ta'en these tenders for true pay,",
+                    "Which are not sterling. Tender yourself more dearly;",
+                    "Or--not to crack the wind of the poor phrase,",
+                    "Running it thus--you'll tender me a fool."
+                  ]
+                },
+                {
+                  "speaker": "OPHELIA",
+                  "lines": [
+                    "My lord, he hath importuned me with love",
+                    "In honourable fashion."
+                  ]
+                },
+                {
+                  "speaker": "POLONIUS",
+                  "lines": ["Ay, fashion you may call it; go to, go to."]
+                },
+                {
+                  "speaker": "OPHELIA",
+                  "lines": [
+                    "And hath given countenance to his speech, my lord,",
+                    "With almost all the holy vows of heaven."
+                  ]
+                },
+                {
+                  "speaker": "POLONIUS",
+                  "lines": [
+                    "Ay, springes to catch woodcocks. I do know,",
+                    "When the blood burns, how prodigal the soul",
+                    "Lends the tongue vows: these blazes, daughter,",
+                    "Giving more light than heat, extinct in both,",
+                    "Even in their promise, as it is a-making,",
+                    "You must not take for fire. From this time",
+                    "Be somewhat scanter of your maiden presence;",
+                    "Set your entreatments at a higher rate",
+                    "Than a command to parley. For Lord Hamlet,",
+                    "Believe so much in him, that he is young",
+                    "And with a larger tether may he walk",
+                    "Than may be given you: in few, Ophelia,",
+                    "Do not believe his vows; for they are brokers,",
+                    "Not of that dye which their investments show,",
+                    "But mere implorators of unholy suits,",
+                    "Breathing like sanctified and pious bawds,",
+                    "The better to beguile. This is for all:",
+                    "I would not, in plain terms, from this time forth,",
+                    "Have you so slander any moment leisure,",
+                    "As to give words or talk with the Lord Hamlet.",
+                    "Look to't, I charge you: come your ways."
+                  ]
+                },
+                {
+                  "speaker": "OPHELIA",
+                  "lines": ["I shall obey, my lord."]
+                }               
+               ]
+             }         
+           ]
+         },
+         {
+          "name":"ACT II",
+          "scenes":[
+            {
+              "name":"SCENE I",
+              "title":"A room in POLONIUS' house",
+              "stageDirection":"Enter POLONIUS and REYNALDO",
+              "speeches":[
+                {
+                          "speaker": "POLONIUS",
+                          "lines": ["Give him this money and these notes, Reynaldo."]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["I will, my lord."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "You shall do marvellous wisely, good Reynaldo,",
+                             "Before you visit him, to make inquire",
+                             "Of his behavior."
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["My lord, I did intend it."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "Marry, well said; very well said. Look you, sir,",
+                             "Inquire me first what Danskers are in Paris;",
+                             "And how, and who, what means, and where they keep,",
+                             "What company, at what expense; and finding",
+                             "By this encompassment and drift of question",
+                             "That they do know my son, come you more nearer",
+                             "Than your particular demands will touch it:",
+                             "Take you, as 'twere, some distant knowledge of him;",
+                             "As thus, 'I know his father and his friends,",
+                             "And in part him: ' do you mark this, Reynaldo?"
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["Ay, very well, my lord."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "'And in part him; but' you may say 'not well:",
+                             "But, if't be he I mean, he's very wild;",
+                             "Addicted so and so:' and there put on him",
+                             "What forgeries you please; marry, none so rank",
+                             "As may dishonour him; take heed of that;",
+                             "But, sir, such wanton, wild and usual slips",
+                             "As are companions noted and most known",
+                             "To youth and liberty."
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["As gaming, my lord."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "Ay, or drinking, fencing, swearing, quarrelling,",
+                             "Drabbing: you may go so far."
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["My lord, that would dishonour him."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "'Faith, no; as you may season it in the charge",
+                             "You must not put another scandal on him,",
+                             "That he is open to incontinency;",
+                             "That's not my meaning: but breathe his faults so quaintly",
+                             "That they may seem the taints of liberty,",
+                             "The flash and outbreak of a fiery mind,",
+                             "A savageness in unreclaimed blood,",
+                             "Of general assault."
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["But, my good lord,--"]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["Wherefore should you do this?"]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": [
+                             "Ay, my lord,",
+                             "I would know that."
+                          ]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "Marry, sir, here's my drift;",
+                             "And I believe, it is a fetch of wit:",
+                             "You laying these slight sullies on my son,",
+                             "As 'twere a thing a little soil'd i' the working, Mark you,",
+                             "Your party in converse, him you would sound,",
+                             "Having ever seen in the prenominate crimes",
+                             "The youth you breathe of guilty, be assured",
+                             "He closes with you in this consequence;",
+                             "'Good sir,' or so, or 'friend,' or 'gentleman,'",
+                             "According to the phrase or the addition",
+                             "Of man and country."
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["Very good, my lord."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "And then, sir, does he this--he does--what was I",
+                             "about to say? By the mass, I was about to say",
+                             "something: where did I leave?"
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": [
+                             "At 'closes in the consequence,' at 'friend or so,'",
+                             "and 'gentleman.'"
+                          ]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "At 'closes in the consequence,' ay, marry;",
+                             "He closes thus: 'I know the gentleman;",
+                             "I saw him yesterday, or t' other day,",
+                             "Or then, or then; with such, or such; and, as you say,",
+                             "There was a' gaming; there o'ertook in's rouse;",
+                             "There falling out at tennis:' or perchance,",
+                             "'I saw him enter such a house of sale,'",
+                             "Videlicet, a brothel, or so forth.",
+                             "See you now;",
+                             "Your bait of falsehood takes this carp of truth:",
+                             "And thus do we of wisdom and of reach,",
+                             "With windlasses and with assays of bias,",
+                             "By indirections find directions out:",
+                             "So by my former lecture and advice,",
+                             "Shall you my son. You have me, have you not?"
+                          ]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["My lord, I have."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["God be wi' you; fare you well."]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["Good my lord!"]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["Observe his inclination in yourself."]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["I shall, my lord."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["And let him ply his music."]
+                       },
+                       {
+                          "speaker": "REYNALDO",
+                          "lines": ["Well, my lord."]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "Farewell!",
+                             "How now, Ophelia! what's the matter?"
+                          ],
+                          "stagedir": [
+                             "Exit REYNALDO",
+                             "Enter OPHELIA"
+                          ]
+                       },
+                       {
+                          "speaker": "OPHELIA",
+                          "lines": ["O, my lord, my lord, I have been so affrighted!"]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["With what, i' the name of God?"]
+                       },
+                       {
+                          "speaker": "OPHELIA",
+                          "lines": [
+                             "My lord, as I was sewing in my closet,",
+                             "Lord Hamlet, with his doublet all unbraced;",
+                             "No hat upon his head; his stockings foul'd,",
+                             "Ungarter'd, and down-gyved to his ancle;",
+                             "Pale as his shirt; his knees knocking each other;",
+                             "And with a look so piteous in purport",
+                             "As if he had been loosed out of hell",
+                             "To speak of horrors,--he comes before me."
+                          ]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["Mad for thy love?"]
+                       },
+                       {
+                          "speaker": "OPHELIA",
+                          "lines": [
+                             "My lord, I do not know;",
+                             "But truly, I do fear it."
+                          ]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": ["What said he?"]
+                       },
+                       {
+                          "speaker": "OPHELIA",
+                          "lines": [
+                             "He took me by the wrist and held me hard;",
+                             "Then goes he to the length of all his arm;",
+                             "And, with his other hand thus o'er his brow,",
+                             "He falls to such perusal of my face",
+                             "As he would draw it. Long stay'd he so;",
+                             "At last, a little shaking of mine arm",
+                             "And thrice his head thus waving up and down,",
+                             "He raised a sigh so piteous and profound",
+                             "As it did seem to shatter all his bulk",
+                             "And end his being: that done, he lets me go:",
+                             "And, with his head over his shoulder turn'd,",
+                             "He seem'd to find his way without his eyes;",
+                             "For out o' doors he went without their helps,",
+                             "And, to the last, bended their light on me."
+                          ]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "Come, go with me: I will go seek the king.",
+                             "This is the very ecstasy of love,",
+                             "Whose violent property fordoes itself",
+                             "And leads the will to desperate undertakings",
+                             "As oft as any passion under heaven",
+                             "That does afflict our natures. I am sorry.",
+                             "What, have you given him any hard words of late?"
+                          ]
+                       },
+                       {
+                          "speaker": "OPHELIA",
+                          "lines": [
+                             "No, my good lord, but, as you did command,",
+                             "I did repel his fetters and denied",
+                             "His access to me."
+                          ]
+                       },
+                       {
+                          "speaker": "POLONIUS",
+                          "lines": [
+                             "That hath made him mad.",
+                             "I am sorry that with better heed and judgment",
+                             "I had not quoted him: I fear'd he did but trifle,",
+                             "And meant to wreck thee; but, beshrew my jealousy!",
+                             "By heaven, it is as proper to our age",
+                             "To cast beyond ourselves in our opinions",
+                             "As it is common for the younger sort",
+                             "To lack discretion. Come, go we to the king:",
+                             "This must be known; which, being kept close, might",
+                             "move",
+                             "More grief to hide than hate to utter love."
+                          ]
+                       }
+              ]
+            },
+            
+            {
+             "name":"SCENE II",
+             "title":"A room in the castle.",
+             "stageDirection":"Enter KING CLAUDIUS, QUEEN GERTRUDE, ROSENCRANTZ, GUILDENSTERN, and Attendants",
+             "speeches":[     
+              {
+                "speaker": "CLAUDIUS",
+                "lines": [
+                  "Welcome, dear Rosencrantz and Guildenstern!",
+                  "Moreover that we much did long to see you,",
+                  "The need we have to use you did provoke",
+                  "Our hasty sending. Something have you heard",
+                  "Of Hamlet's transformation; so call it,",
+                  "Sith nor the exterior nor the inward man",
+                  "Resembles that it was. What it should be,",
+                  "More than his father's death, that thus hath put him",
+                  "So much from the understanding of himself,",
+                  "I cannot dream of: I entreat you both,",
+                  "That, being of so young days brought up with him,",
+                  "And sith so neighbour'd to his youth and havior,",
+                  "That you vouchsafe your rest here in our court",
+                  "Some little time: so by your companies",
+                  "To draw him on to pleasures, and to gather,",
+                  "So much as from occasion you may glean,",
+                  "Whether aught, to us unknown, afflicts him thus,",
+                  "That, open'd, lies within our remedy."
+                ]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": [
+                  "Good gentlemen, he hath much talk'd of you;",
+                  "And sure I am two men there are not living",
+                  "To whom he more adheres. If it will please you",
+                  "To show us so much gentry and good will",
+                  "As to expend your time with us awhile,",
+                  "For the supply and profit of our hope,",
+                  "Your visitation shall receive such thanks",
+                  "As fits a king's remembrance."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "Both your majesties",
+                  "Might, by the sovereign power you have of us,",
+                  "Put your dread pleasures more into command",
+                  "Than to entreaty."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": [
+                  "But we both obey,",
+                  "And here give up ourselves, in the full bent",
+                  "To lay our service freely at your feet,",
+                  "To be commanded."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["Thanks, Rosencrantz and gentle Guildenstern."]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": [
+                  "Thanks, Guildenstern and gentle Rosencrantz:",
+                  "And I beseech you instantly to visit",
+                  "My too much changed son. Go, some of you,",
+                  "And bring these gentlemen where Hamlet is."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": [
+                  "Heavens make our presence and our practises",
+                  "Pleasant and helpful to him!"
+                ]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": ["Ay, amen!"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "The ambassadors from Norway, my good lord,",
+                  "Are joyfully return'd."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["Thou still hast been the father of good news."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Have I, my lord? I assure my good liege,",
+                  "I hold my duty, as I hold my soul,",
+                  "Both to my God and to my gracious king:",
+                  "And I do think, or else this brain of mine",
+                  "Hunts not the trail of policy so sure",
+                  "As it hath used to do, that I have found",
+                  "The very cause of Hamlet's lunacy."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["O, speak of that; that do I long to hear."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Give first admittance to the ambassadors;",
+                  "My news shall be the fruit to that great feast."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": [
+                  "Thyself do grace to them, and bring them in.",
+                  "He tells me, my dear Gertrude, he hath found",
+                  "The head and source of all your son's distemper."
+                ],
+                "stagedir": "Exit POLONIUS"
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": [
+                  "I doubt it is no other but the main;",
+                  "His father's death, and our o'erhasty marriage."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": [
+                  "Well, we shall sift him.",
+                  "Welcome, my good friends!",
+                  "Say, Voltimand, what from our brother Norway?"
+                ],
+                "stagedir": "Re-enter POLONIUS, with VOLTIMAND and CORNELIUS"
+              },
+              {
+                "speaker": "VOLTIMAND",
+                "lines": [
+                  "Most fair return of greetings and desires.",
+                  "Upon our first, he sent out to suppress",
+                  "His nephew's levies; which to him appear'd",
+                  "To be a preparation 'gainst the Polack;",
+                  "But, better look'd into, he truly found",
+                  "It was against your highness: whereat grieved,",
+                  "That so his sickness, age and impotence",
+                  "Was falsely borne in hand, sends out arrests",
+                  "On Fortinbras; which he, in brief, obeys;",
+                  "Receives rebuke from Norway, and in fine",
+                  "Makes vow before his uncle never more",
+                  "To give the assay of arms against your majesty.",
+                  "Whereon old Norway, overcome with joy,",
+                  "Gives him three thousand crowns in annual fee,",
+                  "And his commission to employ those soldiers,",
+                  "So levied as before, against the Polack:",
+                  "With an entreaty, herein further shown,",
+                  "That it might please you to give quiet pass",
+                  "Through your dominions for this enterprise,",
+                  "On such regards of safety and allowance",
+                  "As therein are set down."
+                ],
+                "stagedir": "Giving a paper"
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": [
+                  "It likes us well;",
+                  "And at our more consider'd time well read,",
+                  "Answer, and think upon this business.",
+                  "Meantime we thank you for your well-took labour:",
+                  "Go to your rest; at night we'll feast together:",
+                  "Most welcome home!"
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "This business is well ended.",
+                  "My liege, and madam, to expostulate",
+                  "What majesty should be, what duty is,",
+                  "Why day is day, night night, and time is time,",
+                  "Were nothing but to waste night, day and time.",
+                  "Therefore, since brevity is the soul of wit,",
+                  "And tediousness the limbs and outward flourishes,",
+                  "I will be brief: your noble son is mad:",
+                  "Mad call I it; for, to define true madness,",
+                  "What is't but to be nothing else but mad?",
+                  "But let that go."
+                ]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": ["More matter, with less art."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Madam, I swear I use no art at all.",
+                  "That he is mad, 'tis true: 'tis true 'tis pity;",
+                  "And pity 'tis 'tis true: a foolish figure;",
+                  "But farewell it, for I will use no art.",
+                  "Mad let us grant him, then: and now remains",
+                  "That we find out the cause of this effect,",
+                  "Or rather say, the cause of this defect,",
+                  "For this effect defective comes by cause:",
+                  "Thus it remains, and the remainder thus. Perpend.",
+                  "I have a daughter--have while she is mine--",
+                  "Who, in her duty and obedience, mark,",
+                  "Hath given me this: now gather, and surmise.",
+                  "'To the celestial and my soul's idol, the most",
+                  "beautified Ophelia,'--",
+                  "That's an ill phrase, a vile phrase; 'beautified' is",
+                  "a vile phrase: but you shall hear. Thus:",
+                  "'In her excellent white bosom, these, &c.'"
+                ],
+                "stagedir": 
+                  "Reads"
+                
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": ["Came this from Hamlet to her?"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Good madam, stay awhile; I will be faithful.",
+                  "'Doubt thou the stars are fire;",
+                  "Doubt that the sun doth move;",
+                  "Doubt truth to be a liar;",
+                  "But never doubt I love.",
+                  "'O dear Ophelia, I am ill at these numbers;",
+                  "I have not art to reckon my groans: but that",
+                  "I love thee best, O most best, believe it. Adieu.",
+                  "'Thine evermore most dear lady, whilst",
+                  "this machine is to him, HAMLET.'",
+                  "This, in obedience, hath my daughter shown me,",
+                  "And more above, hath his solicitings,",
+                  "As they fell out by time, by means and place,",
+                  "All given to mine ear."
+                ],
+                "stagedir": "Reads"
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": [
+                  "But how hath she",
+                  "Received his love?"
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["What do you think of me?"]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["As of a man faithful and honourable."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "I would fain prove so. But what might you think,",
+                  "When I had seen this hot love on the wing--",
+                  "As I perceived it, I must tell you that,",
+                  "Before my daughter told me--what might you,",
+                  "Or my dear majesty your queen here, think,",
+                  "If I had play'd the desk or table-book,",
+                  "Or given my heart a winking, mute and dumb,",
+                  "Or look'd upon this love with idle sight;",
+                  "What might you think? No, I went round to work,",
+                  "And my young mistress thus I did bespeak:",
+                  "'Lord Hamlet is a prince, out of thy star;",
+                  "This must not be:' and then I precepts gave her,",
+                  "That she should lock herself from his resort,",
+                  "Admit no messengers, receive no tokens.",
+                  "Which done, she took the fruits of my advice;",
+                  "And he, repulsed--a short tale to make--",
+                  "Fell into a sadness, then into a fast,",
+                  "Thence to a watch, thence into a weakness,",
+                  "Thence to a lightness, and, by this declension,",
+                  "Into the madness wherein now he raves,",
+                  "And all we mourn for."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["Do you think 'tis this?"]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": ["It may be, very likely."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Hath there been such a time--I'd fain know that--",
+                  "That I have positively said 'Tis so,'",
+                  "When it proved otherwise?"
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["Not that I know."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+  
+                  "Take this from this, if this be otherwise:",
+                  "If circumstances lead me, I will find",
+                  "Where truth is hid, though it were hid indeed",
+                  "Within the centre."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["How may we try it further?"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "You know, sometimes he walks four hours together",
+                  "Here in the lobby."
+                ]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": ["So he does indeed."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "At such a time I'll loose my daughter to him:",
+                  "Be you and I behind an arras then;",
+                  "Mark the encounter: if he love her not",
+                  "And be not from his reason fall'n thereon,",
+                  "Let me be no assistant for a state,",
+                  "But keep a farm and carters."
+                ]
+              },
+              {
+                "speaker": "CLAUDIUS",
+                "lines": ["We will try it."]
+              },
+              {
+                "speaker": "GERTRUDE",
+                "lines": ["But, look, where sadly the poor wretch comes reading."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Away, I do beseech you, both away:",
+                  "I'll board him presently.",
+                  "O, give me leave:",
+                  "How does my good Lord Hamlet?"
+                ],
+                "stagedir": 
+                  "Exeunt KING CLAUDIUS, QUEEN GERTRUDE, and Attendants"
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Well, God-a-mercy."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Do you know me, my lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Excellent well; you are a fishmonger."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Not I, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Then I would you were so honest a man."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Honest, my lord!"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Ay, sir; to be honest, as this world goes, is to be",
+                  "one man picked out of ten thousand."
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["That's very true, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "For if the sun breed maggots in a dead dog, being a",
+                  "god kissing carrion,--Have you a daughter?"
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["I have, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Let her not walk i' the sun: conception is a",
+                  "blessing: but not as your daughter may conceive.",
+                  "Friend, look to 't."
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["How say you by that? Still harping on my"
+                  ,
+                  "daughter: yet he knew me not at first; he said I",
+                  "was a fishmonger: he is far gone, far gone: and",
+                  "truly in my youth I suffered much extremity for",
+                  "love; very near this. I'll speak to him again.",
+                  "What do you read, my lord?"
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Words, words, words."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["What is the matter, my lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Between who?"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["I mean, the matter that you read, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Slanders, sir: for the satirical rogue says here",
+                  "that old men have grey beards, that their faces are",
+                  "wrinkled, their eyes purging thick amber and",
+                  "plum-tree gum and that they have a plentiful lack of",
+                  "wit, together with most weak hams: all which, sir,",
+                  "though I most powerfully and potently believe, yet",
+                  "I hold it not honesty to have it thus set down, for",
+                  "yourself, sir, should be old as I am, if like a crab",
+                  "you could go backward."
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Though this be madness, yet there is method"
+                  ,
+                  "in 't. Will you walk out of the air, my lord?"
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Into my grave."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "Indeed, that is out o' the air.",
+                  "How pregnant sometimes his replies are! a happiness",
+                  "that often madness hits on, which reason and sanity",
+                  "could not so prosperously be delivered of. I will",
+                  "leave him, and suddenly contrive the means of",
+                  "meeting between him and my daughter.--My honourable",
+                  "lord, I will most humbly take my leave of you."
+                ],
+                "stagedir": "Aside"
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "You cannot, sir, take from me any thing that I will",
+                  "more willingly part withal: except my life, except",
+                  "my life, except my life."
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Fare you well, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["These tedious old fools!"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["You go to seek the Lord Hamlet; there he is."]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [ "God save you, sir!"
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["My honoured lord!"]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["My most dear lord!"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "My excellent good friends! How dost thou,",
+                  "Guildenstern? Ah, Rosencrantz! Good lads, how do ye both?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["As the indifferent children of the earth."]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": [
+                  "Happy, in that we are not over-happy;",
+                  "On fortune's cap we are not the very button."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Nor the soles of her shoe?"]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["Neither, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Then you live about her waist, or in the middle of",
+                  "her favours?"
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["'Faith, her privates we."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "In the secret parts of fortune? O, most true; she",
+                  "is a strumpet. What's the news?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["None, my lord, but that the world's grown honest."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Then is doomsday near: but your news is not true.",
+                  "Let me question more in particular: what have you,",
+                  "my good friends, deserved at the hands of fortune,",
+                  "that she sends you to prison hither?"
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["Prison, my lord!"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Denmark's a prison."]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["Then is the world one."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "A goodly one; in which there are many confines,",
+                  "wards and dungeons, Denmark being one o' the worst."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["We think not so, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Why, then, 'tis none to you; for there is nothing",
+                  "either good or bad, but thinking makes it so: to me",
+                  "it is a prison."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "Why then, your ambition makes it one; 'tis too",
+                  "narrow for your mind."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "O God, I could be bounded in a nut shell and count",
+                  "myself a king of infinite space, were it not that I",
+                  "have bad dreams."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": [
+                  "Which dreams indeed are ambition, for the very",
+                  "substance of the ambitious is merely the shadow of a dream."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["A dream itself is but a shadow."]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "Truly, and I hold ambition of so airy and light a",
+                  "quality that it is but a shadow's shadow."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Then are our beggars bodies, and our monarchs and",
+                  "outstretched heroes the beggars' shadows. Shall we",
+                  "to the court? for, by my fay, I cannot reason."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["We'll wait upon you."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "No such matter: I will not sort you with the rest",
+                  "of my servants, for, to speak to you like an honest",
+                  "man, I am most dreadfully attended. But, in the",
+                  "beaten way of friendship, what make you at Elsinore?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["To visit you, my lord; no other occasion."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Beggar that I am, I am even poor in thanks; but I",
+                  "thank you: and sure, dear friends, my thanks are",
+                  "too dear a halfpenny. Were you not sent for? Is it",
+                  "your own inclining? Is it a free visitation? Come,",
+                  "deal justly with me: come, come; nay, speak."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["What should we say, my lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Why, any thing, but to the purpose. You were sent",
+                  "for; and there is a kind of confession in your looks",
+                  "which your modesties have not craft enough to colour:",
+                  "I know the good king and queen have sent for you."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["To what end, my lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "That you must teach me. But let me conjure you, by",
+                  "the rights of our fellowship, by the consonancy of",
+                  "our youth, by the obligation of our ever-preserved",
+                  "love, and by what more dear a better proposer could",
+                  "charge you withal, be even and direct with me,",
+                  "whether you were sent for, or no?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["What say you?"  ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [ "Nay, then, I have an eye of you.--If you" ,
+                  "love me, hold not off."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["My lord, we were sent for."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "I will tell you why; so shall my anticipation",
+                  "prevent your discovery, and your secrecy to the king",
+                  "and queen moult no feather. I have of late--but",
+                  "wherefore I know not--lost all my mirth, forgone all",
+                  "custom of exercises; and indeed it goes so heavily",
+                  "with my disposition that this goodly frame, the",
+                  "earth, seems to me a sterile promontory, this most",
+                  "excellent canopy, the air, look you, this brave",
+                  "o'erhanging firmament, this majestical roof fretted",
+                  "with golden fire, why, it appears no other thing to",
+                  "me than a foul and pestilent congregation of vapours.",
+                  "What a piece of work is a man! how noble in reason!",
+                  "how infinite in faculty! in form and moving how",
+                  "express and admirable! in action how like an angel!",
+                  "in apprehension how like a god! the beauty of the",
+                  "world! the paragon of animals! And yet, to me,",
+                  "what is this quintessence of dust? man delights not",
+                  "me: no, nor woman neither, though by your smiling",
+                  "you seem to say so."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["My lord, there was no such stuff in my thoughts."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Why did you laugh then, when I said 'man delights not me'?"]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "To think, my lord, if you delight not in man, what",
+                  "lenten entertainment the players shall receive from",
+                  "you: we coted them on the way; and hither are they",
+                  "coming, to offer you service."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "He that plays the king shall be welcome; his majesty",
+                  "shall have tribute of me; the adventurous knight",
+                  "shall use his foil and target; the lover shall not",
+                  "sigh gratis; the humourous man shall end his part",
+                  "in peace; the clown shall make those laugh whose",
+                  "lungs are tickled o' the sere; and the lady shall",
+                  "say her mind freely, or the blank verse shall halt",
+                  "for't. What players are they?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "Even those you were wont to take delight in, the",
+                  "tragedians of the city."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "How chances it they travel? their residence, both",
+                  "in reputation and profit, was better both ways."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "I think their inhibition comes by the means of the",
+                  "late innovation."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Do they hold the same estimation they did when I was",
+                  "in the city? are they so followed?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["No, indeed, are they not."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["How comes it? do they grow rusty?"]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "Nay, their endeavour keeps in the wonted pace: but",
+                  "there is, sir, an aery of children, little eyases,",
+                  "that cry out on the top of question, and are most",
+                  "tyrannically clapped for't: these are now the",
+                  "fashion, and so berattle the common stages--so they",
+                  "call them--that many wearing rapiers are afraid of",
+                  "goose-quills and dare scarce come thither."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "What, are they children? who maintains 'em? how are",
+                  "they escoted? Will they pursue the quality no",
+                  "longer than they can sing? will they not say",
+                  "afterwards, if they should grow themselves to common",
+                  "players--as it is most like, if their means are no",
+                  "better--their writers do them wrong, to make them",
+                  "exclaim against their own succession?"
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "'Faith, there has been much to do on both sides; and",
+                  "the nation holds it no sin to tarre them to",
+                  "controversy: there was, for a while, no money bid",
+                  "for argument, unless the poet and the player went to",
+                  "cuffs in the question."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Is't possible?"]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["O, there has been much throwing about of brains."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Do the boys carry it away?"]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": ["Ay, that they do, my lord; Hercules and his load too."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "It is not very strange; for mine uncle is king of",
+                  "Denmark, and those that would make mows at him while",
+                  "my father lived, give twenty, forty, fifty, an",
+                  "hundred ducats a-piece for his picture in little.",
+                  "'Sblood, there is something in this more than",
+                  "natural, if philosophy could find it out."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["There are the players."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Gentlemen, you are welcome to Elsinore. Your hands,",
+                  "come then: the appurtenance of welcome is fashion",
+                  "and ceremony: let me comply with you in this garb,",
+                  "lest my extent to the players, which, I tell you,",
+                  "must show fairly outward, should more appear like",
+                  "entertainment than yours. You are welcome: but my",
+                  "uncle-father and aunt-mother are deceived."
+                ]
+              },
+              {
+                "speaker": "GUILDENSTERN",
+                "lines": ["In what, my dear lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "I am but mad north-north-west: when the wind is",
+                  "southerly I know a hawk from a handsaw."
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Well be with you, gentlemen!"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Hark you, Guildenstern; and you too: at each ear a",
+                  "hearer: that great baby you see there is not yet",
+                  "out of his swaddling-clouts."
+                ]
+              },
+              {
+                "speaker": "ROSENCRANTZ",
+                "lines": [
+                  "Happily he's the second time come to them; for they",
+                  "say an old man is twice a child."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "I will prophesy he comes to tell me of the players;",
+                  "mark it. You say right, sir: o' Monday morning;",
+                  "'twas so indeed."
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["My lord, I have news to tell you."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "My lord, I have news to tell you.",
+                  "When Roscius was an actor in Rome,--"
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["The actors are come hither, my lord."]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Buz, buz!"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["Upon mine honour,--"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Then came each actor on his ass,--"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "The best actors in the world, either for tragedy,",
+                  "comedy, history, pastoral, pastoral-comical,",
+                  "historical-pastoral, tragical-historical, tragical-",
+                  "comical-historical-pastoral, scene individable, or",
+                  "poem unlimited: Seneca cannot be too heavy, nor",
+                  "Plautus too light. For the law of writ and the",
+                  "liberty, these are the only men."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["O Jephthah, judge of Israel, what a treasure hadst thou!"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["What a treasure had he, my lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Why,",
+                  "'One fair daughter and no more,",
+                  "The which he loved passing well.'"
+                ]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [ "Still on my daughter." ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Am I not i' the right, old Jephthah?"]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": [
+                  "If you call me Jephthah, my lord, I have a daughter",
+                  "that I love passing well."
+                ]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": ["Nay, that follows not."]
+              },
+              {
+                "speaker": "POLONIUS",
+                "lines": ["What follows, then, my lord?"]
+              },
+              {
+                "speaker": "HAMLET",
+                "lines": [
+                  "Why,",
+                  "'As by lot, God wot,'",
+                  "and then, you know,",
+                  "'It came to pass, as most like it was,'--",
+                  "the first row of the pious chanson will show you",
+                  "more; for look, where my abridgement comes.",
+                  "You are welcome, masters; welcome, all. I am glad",
+                  "to see thee well. Welcome, good friends. O, my old",
+                  "friend! thy face is valenced since I saw thee last:",
+                  "comest thou to beard me in Denmark? What, my young",
+                  "lady and mistress! By'r lady, your ladyship is",
+                  "nearer to heaven than when I saw you last, by the",
+                  "altitude of a chopine. Pray God, your voice, like",
+                  "apiece of uncurrent gold, be not cracked within the",
+                  "ring. Masters, you are all welcome. We'll e'en",
+                  "to't like French falconers, fly at any thing we see:",
+                  "we'll have a speech straight: come, give us a taste",
+                  "of your quality; come, a passionate speech."
+                ],
+                "stagedir": "Enter four or five Players"
+              }
+             ]      
+            }            
+          ]
+        }       
+       ]
+   }
+`;

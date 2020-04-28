@@ -1,0 +1,110 @@
+:root {
+   --dark: #425C78;
+   --darkest: #304357;
+   --light: #F2F3FA;
+   --lightest: white;
+   --primary: #5C6BC0;
+   --secondary: #FF246D;
+   --tertiary: #FF246D;
+   --foreground: #34495F;
+   --foreground-light: #A9A9A9;
+   --foreground-contrast: #E1FFFF;
+}
+
+body, header, article, main, section, aside, div, p, ul, li, h1, h2, h3, h4 {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: var(--light);
+   color: var(--foreground);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+}
+
+body > header {
+   background-color: var(--lightest);
+   box-shadow: 0 2px 4px rgba(0,0,0,.08);   
+   padding: 10px;
+}
+
+main.container {
+   display: grid;
+   grid-template-columns: 300px auto;
+}
+
+aside {
+   padding: 10px;
+   background-color: var(--darkest);
+   color: var(--foreground-contrast);
+}
+
+aside nav {
+   margin-top: 10px;
+}
+
+h4 {
+   font-size: 24px;
+}
+
+#companiesList li {
+   background-color: var(--darkest);
+   cursor: pointer;
+   padding: 3px;
+}
+
+article.box {
+   box-shadow: 0 2px 4px rgba(0,0,0,.08);
+   margin: 15px;
+   padding: 5px;
+   background-color: var(--lightest);
+/*    height: 500px; */
+}
+article.box header {
+   background-color: var(--lightest);
+   border-bottom: 1pt solid var(--foreground-light);
+   margin-bottom: 5px;
+   display: grid;
+   grid-template-columns: auto 32px;
+   grid-template-rows: auto auto;
+}
+article.box header h4 {
+   padding: 15px 0;
+}
+#coSector {
+   font-style: italic;
+}
+#coDesc, #coSite {
+   margin-top: 12px;
+   line-height: 28px;
+}
+.box a:link, .box a:visited {
+   color: var(--secondary)
+}
+
+section {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-column-gap: 10px;
+
+   grid-template-rows: 400px 480px;
+}
+
+#map {
+   height: 350px;
+}
+#incomeChartDiv, #balanceChartDiv {
+   height: 350px;
+}
+
+#txtFilter {
+   height: 30px;
+}
+
+#btnClear {
+   background-color: var(--secondary);
+   height: 30px;
+   border-color: var(--secondary);
+   border-radius: 3px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>  
+    <title>Chapter 10</title>   
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ch10-proj02.css">
+
+    <script src="play-module.js" type="module"></script> 
+    <script src="ch10-proj02.js" type="module"></script> 
+</head>
+<body>
+
+<header>
+   <h1>Project 2 - Shakespeare Play Viewer</h1>
+</header>
+<main>
+   
+   <aside>
+      <select id="playList">
+         <option value=0>Choose a Play</option>
+         <option value="hamlet">Hamlet</option>
+         <option value="jcaesar">Julius Caesar</option>
+      </select>
+      <fieldset id="interface">
+         <select id="actList"></select>
+         <select id="sceneList"></select>      
+         <fieldset>
+            <select id="playerList">
+               <option value=0>All Players</option>
+            </select>      
+          
+            <input type="text" id="txtHighlight" placeholder="Enter a search term" />
+            <button id="btnHighlight" >Filter</button>
+         </fieldset>
+      </fieldset>
+
+
+   </aside>
+
+   <section id="playHere">
+        <!-- Note you will need to remove or comment out some of this markup; 
+            it is there to show you the markup that your javascript will need to generate.
+        -->   
+      <h2>Play title here</h2>
+      <article id="actHere">
+         <h3>Act name here</h3>
+         <div id="sceneHere">
+			<h4>Scene name here</h4>
+			<p class="title">scene title</p>
+			<p class="direction">stage direction</p>
+			<div class="speech"><span>BERNARDO</span><p>Who's there?</p></div>		
+			<div class="speech"><span>FRANCISCO</span><p>Nay, answer me: <b>stand</b>, and unfold yourself.</p></div>		
+			<div class="speech"><span>MARCELLUS</span><p>'Tis gone!</p><p>We do it wrong, being so majestical,</p><p>To offer it the show of violence;</p><p>For it is, as the air, invulnerable,</p><p>And our vain blows malicious mockery.</p><em>Exit Ghost</em></div>
+		 </div>
+      </article>
+   </section>
+
+</main>
+   
+</body>
+</html>

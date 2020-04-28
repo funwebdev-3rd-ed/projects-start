@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>  
+    <title>Lab 10</title>   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">    
+    <link rel="stylesheet" href="ch10-proj03.css">
+    <script src="ch10-proj03.js" type="module"></script>
+    <script src="CompanyCollection.js" type="module"></script>
+        
+</head>
+<body>
+<header>
+    <h1>Project 3</h1>
+</header>
+
+<main class="container">
+    <aside>
+        <h3>Companies</h3>
+        <nav>
+            <fieldset>
+                <input type="search" id="txtFilter" placeholder="Filter " />
+                <button id="btnClear" >Clear</button>
+            </fieldset>
+            <ul id="companiesList"></ul>
+        </nav>
+    </aside>
+    <section>
+        <article class="box">
+            <header>
+                <h4 id="coName"></h4>      
+                
+            </header>
+
+            <p id="coSector"></p>
+            <p id="coDesc"></p>
+            <p id="coSite"><a></a></p>          
+        </article>
+
+        <article class="box">
+            <header>
+                <h4>Income</h4>
+            </header>
+            <div id="incomeChartDiv"></div> 
+        </article>        
+
+        <article class="box">
+            <header>
+                <h4>Location</h4>      
+            </header>
+
+            <div id="map"></div>
+        </article> 
+        
+        <article class="box">
+            <header>
+                <h4>Balance</h4>
+            </header>
+            <div id="balanceChartDiv"></div> 
+        </article>           
+
+    </section>
+
+</main>
+
+<div id="loader" class="lds-ring"><div></div><div></div><div></div><div></div></div>  
+
+<script src="https://maps.googleapis.com/maps/api/js?key=[Your API Key Here]"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</body>
+</html>

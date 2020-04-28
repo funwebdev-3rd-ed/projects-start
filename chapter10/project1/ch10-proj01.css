@@ -1,0 +1,177 @@
+:root {
+    --boxSize: 50px;
+    --detailBoxSize: 100px;
+    --dark: #0B0C0E;
+    --neutral: #3C4758;
+    --light: aliceblue;
+    --blue: #0053ba;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: var(--neutral);
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+}
+
+
+
+
+.container {
+
+    padding: 10px;
+    margin: 10px 10px 5px 10px;
+
+    background-color: var(--dark);
+    color: var(--light);
+    box-shadow: 6px 5px 20px 1px rgba(0,0,0,0.22);
+}
+h3 {
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.scheme {
+    display: grid;
+    grid-template-columns: calc( var(--boxSize)*5) auto;
+}
+.preview {
+    display: grid;
+    grid-template-columns: var(--boxSize) var(--boxSize) var(--boxSize) var(--boxSize) var(--boxSize);
+    grid-column-gap: 0px;   
+}
+.actions  {
+    margin-top: calc( var(--boxSize) / 2 - 20px);
+    margin-left: 50px;
+}
+.color-box {
+    width: var(--boxSize);
+    height: var(--boxSize);   
+    display: inline-grid;
+}
+.color-box:nth-child(1) {
+    border-radius: 7px 0 0 7px;
+}
+.color-box:nth-child(5) {
+    border-radius: 0 7px 7px 0;
+}
+
+.detailBox {
+    width: var(--detailBoxSize);
+    height: var(--detailBoxSize);   
+    display: inline-grid;
+    margin-bottom: 15px;
+}
+.colorRow {
+    display: grid;
+    grid-template-columns: 2fr 100px 150px 6fr;
+}
+.colorRow span {
+    display: inline-block;
+    margin: 35px 5px;
+}
+.colorRow label {
+    display: inline-block;
+    margin: 35px;
+}
+
+
+aside {
+    padding: 10px;
+    margin: 10px 10px 5px 10px;
+    background-color: white;
+    box-shadow: 6px 5px 20px 1px rgba(0,0,0,0.22);    
+    
+}
+
+label {
+    font-weight: 600;
+}
+fieldset span {
+    font-style: italic;
+}
+hr {
+    margin: 0.75rem 0;
+}
+
+
+@media only screen and (max-width: 950px) {
+    body {
+      display: block;
+    }
+    aside {
+        padding: 10px;
+        margin: 10px;    
+        
+    }
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin: 0 1rem 0 0;
+    text-decoration: none;
+    background: var(--neutral);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: var(--blue);
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+
+/* CSS Loader source: https://loading.io/css/ */
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #cdd422;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #c2dde6 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
