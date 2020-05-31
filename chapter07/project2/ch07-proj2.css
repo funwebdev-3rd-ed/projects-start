@@ -1,0 +1,55 @@
+:root {
+    --color-block-1: #7B93DB;
+    --color-block-2: #4C63B6;
+    --color-block-3: #2D3A8C;
+    --color-block-4: #EF4E4E;
+
+    --color-text-light: #F5F7FA;
+    --color-text-dark: #3E4C59;
+
+    --color-back: #F5F7FA;
+}
+html { box-sizing: border-box; }
+*, *:before, *:after {
+box-sizing: inherit;
+}  
+body, div, span, h1, h2, h3, h4, aside, p, main, nav, ul, li {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: var(--color-text-dark);
+    background-color: var(--color-back);
+}
+h2, h3, h4 { 
+    font-weight: 300;
+}
+.container {
+	padding: 25px;
+    width: 100%;
+
+ }
+ .container > div {
+     background-color: #616E7C;
+     color: white;
+     border: 0;
+     border-radius: 3px;
+     padding: 1.5em;
+	 box-shadow: 2px 2px 2px 2px hsla(0,0%,75%,0.2);
+ }
+
+ /* add your styles */
+
+}
+
+/* styles for mobile protrait screen */
+
+
+
+/* styles for tablet portrait and mobile landscape screens */

@@ -1,0 +1,26 @@
+
+* {
+   box-sizing: border-box;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #e4e7eb;
+   font-weight: 300;
+}
+header {
+   margin-left: 20px;
+}
+h1 { 
+   text-align: center;
+   font-weight: 600;
+   font-size: 42px;
+   padding: 10px 0;
+}
+
+/* add styles here */
+
