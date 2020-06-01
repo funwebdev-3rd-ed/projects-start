@@ -1,0 +1,111 @@
+$color-primary-1-050: #DCEEFB;
+$color-primary-1-100: #B6E0FE;
+$color-primary-1-200: #84C5F4;
+$color-primary-1-300: #62B0E8;
+$color-primary-1-400: #4098D7;
+$color-primary-1-500: #2680C2;
+$color-primary-1-600: #186FAF;
+$color-primary-1-700: #0F609B;
+$color-primary-1-800: #0A558C;
+$color-primary-1-900: #003E6B; 
+
+/* neutral: grey */
+$color-neutral-050: #F0F4F8;
+$color-neutral-100: #D9E2EC;
+$color-neutral-200: #BCCCDC;
+$color-neutral-300: #9FB3C8;
+$color-neutral-400: #829AB1;
+$color-neutral-500: #627D98;
+$color-neutral-600: #486581;
+$color-neutral-700: #334E68;
+$color-neutral-800: #243B53;
+$color-neutral-900: #102A43;
+
+
+/* font stack */
+$fonts: 'IBM Plex Sans', sans-serif;
+
+
+/* font scale increases by 1.125 */
+$font-size-xs: 0.64em;
+$font-size-sm: 0.8em;
+$font-size-base: 1em;
+$font-size-lg: 1.25em;
+$font-size-xl: 1.563em;
+$font-size-2xl: 1.953em;
+$font-size-3xl: 2.441em;
+
+$font-thin: 200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+/* box shadows */
+$shadow: 4;
+$box_shadow: 0 ($shadow * .1px) ($shadow * .2px) rgba(0,0,0,$shadow * .02),0 ($shadow * .2px) ($shadow * .4px) rgba(0,0,0,$shadow * .02),0 ($shadow * .4px) ($shadow * .8px) rgba(0,0,0,$shadow * .02),0 ($shadow * .8px) ($shadow * 1.6px) rgba(0,0,0,$shadow * .02);
+
+/* sizing */
+$space-0: 0;
+$space-1: 0.25rem;
+$space-2: 0.5rem;
+$space-3: 0.75rem;
+$space-4: 1.0rem;
+$space-5: 1.25rem;
+$space-6: 1.5rem;
+$space-8: 2rem;
+$space-10: 2.5rem;
+$space-12: 3rem;
+$space-16: 4rem;
+$space-20: 5rem;
+$space-24: 6rem;
+$space-32: 8rem;
+$space-40: 10rem;
+
+
+/* use box-sizing everywhere */
+html { box-sizing: border-box; }
+*, *:before, *:after {
+   box-sizing: inherit;
+}  
+/* now do a reset */
+body, div, span, h1, h2, h3, h4, h5, aside, p, main, nav, ul, li, 
+fieldset, form, figure, figcaption, header, footer, nav, section, label, legend {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+}
+ul, li { list-style: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+
+/* now set up base styling */
+
+body {
+   font-family: $fonts;
+   font-size: $font-size-base;
+   font-weight: $font-normal;
+   line-height: 1.65;
+   background-color: $color-neutral-100;
+   color: $color-neutral-900;
+}
+h1 { 
+   font-weight: $font-semibold;
+   font-size: $font-size-2xl;
+}
+h2 { 
+   font-weight: $font-semibold;
+   font-size: $font-size-xl;
+}
+h3 { 
+   font-weight: 500;
+   font-size: $font-size-lg;
+}
+h4 { 
+   font-weight: $font-medium;
+   font-size: $font-size-base;
+}
+
+
