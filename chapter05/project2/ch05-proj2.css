@@ -1,0 +1,60 @@
+
+/* general text formatting */
+
+
+body {
+   font-family: 'Roboto', Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   margin: 3px 0 0 0
+}
+h1, h2, h3, nav, footer {
+   font-weight: 500;
+  }
+
+
+legend {
+   background-color: var(--color-primary-1-900) ;
+   color: var(--color-primary-1-050);
+   margin: 0 auto;
+   width: 90%;
+   padding: 0.25em;
+   text-align: center;
+   font-weight: 500;
+   font-size: 24px;
+}
+fieldset {
+   margin: 0.5em auto;
+   background-color: var(--color-neutral-050);
+   border: solid 1px var(--color-neutral-100);
+   width: 90%;
+}
+
+div#searchBox, div#settingsBox, div#paintingBox {
+   background-color: var(--color-neutral-100);
+
+}
+
+
+
+div#paintingBox { 
+
+   background-color: var(--color-neutral-100);
+   }
+
+
+
+table thead {
+   background-color: var(--color-primary-1-050) ;
+}
+
+
+caption {
+   background-color: var(--color-primary-1-800);
+   color: var(--color-primary-1-050);
+
+}
+
+
+
+

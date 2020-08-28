@@ -1,0 +1,74 @@
+:root {
+   /* Primary: Cyan   */
+   --color-primary-1-050: #E0FCFF;
+   --color-primary-1-100: #BEF8FD;
+   --color-primary-1-200: #87EAF2;
+   --color-primary-1-300: #54D1DB;
+   --color-primary-1-400: #38BEC9;
+   --color-primary-1-500: #2CB1BC;
+   --color-primary-1-600: #14919B;
+   --color-primary-1-700: #0E7C86;
+   --color-primary-1-800: #0A6C74;
+   --color-primary-1-900: #044E54; 
+
+
+   /* neutral: warm grey */
+   --color-neutral-050: #FAF9F7;
+   --color-neutral-100: #E8E6E1;
+   --color-neutral-200: #D3CEC4;
+   --color-neutral-300: #B8B2A7;
+   --color-neutral-400: #A39E93;
+   --color-neutral-500: #857F72;
+   --color-neutral-600: #625D52;
+   --color-neutral-700: #504A40;
+   --color-neutral-800: #423D33;
+   --color-neutral-900: #27241D;
+
+
+   /* Supporting: Blue, Red, yellow, teal  */
+   --color-support-1-050: #DCEEFB;
+   --color-support-1-100: #B6E0FE;
+   --color-support-1-200: #84C5F4;
+   --color-support-1-300: #62B0E8;
+   --color-support-1-400: #4098D7;
+   --color-support-1-500: #2680C2;
+   --color-support-1-600: #186FAF;
+   --color-support-1-700: #0F609B;
+   --color-support-1-800: #0A558C;
+   --color-support-1-900: #003E6B;          
+
+   --color-support-2-050: #FFEEEE;
+   --color-support-2-100: #FACDCD;
+   --color-support-2-200: #F29B9B;
+   --color-support-2-300: #E66A6A;
+   --color-support-2-400: #D64545;
+   --color-support-2-500: #BA2525;
+   --color-support-2-600: #A61B1B;
+   --color-support-2-700: #911111;
+   --color-support-2-800: #780A0A;
+   --color-support-2-900: #610404;    
+   
+   --color-support-3-050: #FFFAEB;
+   --color-support-3-100: #FCEFC7;
+   --color-support-3-200: #F8E3A3;
+   --color-support-3-300: #F9DA8B;
+   --color-support-3-400: #F7D070;
+   --color-support-3-500: #E9B949;
+   --color-support-3-600: #C99A2E;
+   --color-support-3-700: #A27C1A;
+   --color-support-3-800: #7C5E10;
+   --color-support-3-900: #513C06;     
+
+   --color-support-4-050: #EFFCF6;
+   --color-support-4-100: #C6F7E2;
+   --color-support-4-200: #8EEDC7;
+   --color-support-4-300: #65D6AD;
+   --color-support-4-400: #3EBD93;
+   --color-support-4-500: #27AB83;
+   --color-support-4-600: #199473;
+   --color-support-4-700: #147D64;
+   --color-support-4-800: #0C6B58;
+   --color-support-4-900: #014D40;          
+
+
+}
