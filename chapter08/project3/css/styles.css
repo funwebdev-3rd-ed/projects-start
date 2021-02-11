@@ -1,0 +1,63 @@
+
+
+
+/* Styles for Project #3 */
+
+#proj3 {
+    background-color: #97caf6;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;   
+    margin: 0 0;
+    padding: 0;
+}
+#proj3 h2 {
+    margin: 0;
+    padding: 0.25rem 0 0 0; 
+    text-align: center;    
+}
+#proj3 section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0.25rem;
+    margin: 0.5rem;
+}
+#proj3 .card {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 6px 6px 5px 0px #216fb1;
+
+    display: flex;
+    flex-direction: column;
+}
+#proj3 .card img {
+    height: 200px;
+}
+
+#proj3 .card p {
+    font-size: 1rem;
+    color: #a7a7a7;
+    margin: 0.25rem 0 0 0;
+}
+#proj3 .card div {
+    border-top: 1pt solid #9cafb7;
+    margin: 1rem 0 0 0;
+    padding: 0;    
+}
+#proj3 .card div span {
+    float: right;
+    color: #174a76;
+}
+#proj3 .card footer {
+    border-top: 1pt solid #9cafb7;
+    margin: 1rem 0 1rem 0;
+    padding: 0;      
+}
+#proj3 small {
+    display: inline-block;
+    background-color: #2d95ec;
+    color: white;
+    padding: 2px;
+    margin: 0.25rem;
+}

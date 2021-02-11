@@ -1,0 +1,44 @@
+
+/* Styles for Project 2 */
+
+main {
+    font-family: 'Oswald', sans-serif;
+    margin: 25px;
+}
+main h2 {
+    font-weight: 500;
+    margin: 0;
+}
+main h3 {
+    font-weight: 500;
+    margin: 0;
+}
+main section {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-gap: 30px;
+
+}
+main section article {
+    margin: 0;
+    padding: 10px;
+    border: 1pt solid #9d9c9c;
+
+}
+main section article p {
+    margin: 0 0 5px 0;
+    font-weight: 300;
+}
+main section .caption span {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+
+
