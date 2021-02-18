@@ -1,0 +1,126 @@
+ 
+ body {
+   font-family: 'Roboto Condensed', sans-serif;
+   background:#003049;
+   min-height:100vh;    
+   margin: 0;
+   padding: 0;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ h1 {    
+    color: white;
+    font-size: 1.3em;    
+ }
+
+aside {
+  margin-bottom: 5px;
+}
+
+#vidPlayer {
+  width: 100%;
+}
+ 
+#controls button {
+  margin: 0.25em .25em 0 0;;
+  background:#fcbf49;
+  border:0;
+  color:white;
+  text-align: center;
+  padding: 0;
+  cursor:pointer;
+}
+
+ 
+ .player__slider {
+   width:10px;
+   height:30px;
+ }
+ 
+#controls {
+   display:flex;
+   width: 100%;
+   flex-wrap:wrap;
+   color: white;
+ }
+ 
+/* set all elements within controls to use flex */
+#controls > * {
+   flex:1;
+ }
+ 
+#progress {
+  flex:auto;
+   position: relative;
+   display:flex;
+   flex-basis:100%;
+   height:10px;
+   transition:height 0.3s;
+   background:rgba(0,0,0,0.5);
+ }
+ 
+ #progressFilled {
+   width:50%;
+   background:#f77f00;
+   flex:0;
+   flex-basis:0%;
+ }
+
+ 
+ /* CSS to style input type="range"
+    Copied from Wes Bos’s JavaScript 30 sample project 
+    (https://javascript30.com/), and is used with permission.
+
+ */
+ 
+
+ input[type=range] {
+  -webkit-appearance: none;
+  background:transparent;
+  width: 100%;
+  margin: 0 5px;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0 0 1px rgba(13, 13, 13, 0);
+  background: rgba(255,255,255,0.8);
+  border-radius: 1.3px;
+  border: 0.2px solid rgba(1, 1, 1, 0);
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background: #f77f00;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.5px;
+  box-shadow:0 0 2px rgba(0,0,0,0.2);
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #eae2b7;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0 0 1px rgba(13, 13, 13, 0);
+  background: #ffffff;
+  border-radius: 1.3px;
+  border: 0.2px solid rgba(1, 1, 1, 0);
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(13, 13, 13, 0);
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background: #ffc600;
+  cursor: pointer;
+}

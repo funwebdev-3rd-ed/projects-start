@@ -1,4 +1,10 @@
 
+/* note: you may get both a CORS error and module error if you test this locally 
+   (i.e., directly from a local file). To work correctly, this needs to be tested on a 
+   local web server. Some possibilities: if using Visual Code, use Live Server extension; 
+   if Brackets, use built-in Live Preview.
+*/
+
 window.addEventListener('load', function() {
 
    const url = "https://www.randyconnolly.com/funwebdev/3rd/api/stocks/companies.php";

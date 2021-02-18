@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>  
+    <title>Lab 12</title>   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">    
+    <link rel="stylesheet" href="css/ch12-proj3.css">
+    <script src="js/ch12-proj3.js"></script>
+</head>
+<body>
+   <h1>Fine Art Meme Maker</h1> 
+   <section class="grid-container">
+       <img src="ch12-proj3-result.php?file=017040&width=100" data-value="017040" class="img-selected"><img src="ch12-proj3-result.php?file=130010&width=100" data-value="130010"><img src="ch12-proj3-result.php?file=130020&width=100" data-value="130020"><img src="ch12-proj3-result.php?file=017080&width=100" data-value="017080"><img src="ch12-proj3-result.php?file=019170&width=100" data-value="019170"><img src="ch12-proj3-result.php?file=107030&width=100" data-value="107030"><img src="ch12-proj3-result.php?file=126020&width=100" data-value="126020" class=""><img src="ch12-proj3-result.php?file=124020&width=100" data-value="124020"><img src="ch12-proj3-result.php?file=112020&width=100" data-value="112020"><img src="ch12-proj3-result.php?file=123020&width=100" data-value="123020">    
+   </section>     
+   <form action="ch12-proj3-result.php" method="get">
+       <label>Select Base Painting:</label>
+       <select name="file" id="whichPainting">
+           <option value="017040">Woman with a Parasol</option><option value="130010">Portrait of a young women</option><option value="130020">Three girls from Amsterdam Orphanage</option><option value="017080">The Bridge at Argenteuile</option><option value="019170">Self Portrait</option><option value="107030">Madame Bergeret</option><option value="126020">Interior with Women beside a Linen Cupboard</option><option value="124020">The Merry Family</option><option value="112020">Self Portrait</option><option value="123020">Portrait of Feyntje van Steenkiste</option>        </select>
+       <label>Meme 1 Text:</label>
+       <input type="text" name="text1" size="50" value="Default text">
+       <label>Meme 1 Font Size:</label>
+       12 <input type="range" name="size1" min="12" max="64" value="24"> 64
+       <label>Meme 2 Text:</label>
+       <input type="text" name="text2" size="50" value="More text">   
+       <label>Meme 2 Font Size:</label>
+       12 <input type="range" name="size2" min="12" max="48" value="48"> 48  
+       <label>Image Width:</label>
+       500 <input type="range" name="width" min="500" max="1000" value="500"> 1000            
+
+       <input type="submit" value="Click To See Meme">
+   </form>
+  
+
+</body>

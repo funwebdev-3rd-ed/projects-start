@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>  
+    <title>Lab 9</title>   
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">  
+    <link rel="stylesheet" href="ch09-proj01.css">
+    
+    <script src="ch09-proj01.js"></script> 
+</head>
+<body>
+
+
+<h1>Project 1</h1>
+<main>
+   <aside></aside>
+   <section>
+      <video id="vidPlayer" >
+         <source src="videos/Nature-8399.mp4" />
+      </video>
+   
+      <div id="controls">
+        <div id="progress">
+         <div id="progressFilled"></div>
+        </div>
+        <button data-skip="-5" >⯇⯇</button>
+        <button id="play" title="Toggle Play">⯈</button>        
+        <button data-skip="5" >⯈⯈</button>
+        <button id="stop">◼</button>
+         🕨
+         <input type="range" id="volume" min="0" max="1" step="0.05" value="1"> 
+        🕪
+   
+      </div>
+   </section>
+
+</main>
+   
+</body>
+</html>

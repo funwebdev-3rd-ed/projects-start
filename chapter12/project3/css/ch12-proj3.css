@@ -1,0 +1,64 @@
+:root {
+  --back-color: #323F4B;
+  --text-color: #f8f9f8;
+  --btn-color: #eb4839;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;  
+  width: 95%;
+  margin: 1em 0 0 2em;    
+  background-color: var(--back-color);
+  color: #FEFEFE;
+}
+
+
+/* mobile size first */
+.grid-container {  
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 100px);
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+      text-align: center;
+}
+.grid-container img {
+  padding: 3px;
+}
+.grid-container img.img-selected {
+  border: 1px dotted var(--btn-color);
+  padding: 2px;
+}
+form {
+   margin-top: 1em;
+}
+select, input[type=text] {
+    font-size: 1rem;
+}
+
+label, select, input[type=text], input[type=submit]  {
+    display: block;
+    padding: 0.5em 0.25em;
+}
+
+input[type=range] {
+    width: 300px;
+}
+
+input[type=submit] {
+    width: 300px;
+    margin-top: 1.5em;
+    padding: 0.5em 0.25em;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    letter-spacing: 3px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 1px;
+}
+

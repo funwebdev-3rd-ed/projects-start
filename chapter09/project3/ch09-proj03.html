@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>  
+    <title>Chapter 9</title>   
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700" rel="stylesheet">
+    <link href="ch09-proj03.css" rel="stylesheet" >
+    
+    <script src="users.json"></script> 
+    <script src="stocks-complete.json"></script> 
+    <script src="ch09-proj03.js"></script> 
+</head>
+<body>
+
+<header>
+   <h1>Chapter 9, Project 3</h1>
+</header>
+<main class="grid-container">
+
+      <section class="UserList">
+         <h2>Users</h2>
+         <ul></ul>
+      </section>
+
+      <section class="Details">
+         <div class="UserForm">
+            <h2>User Form</h2>
+            <form class="userEntry">
+               <input type=hidden id="userID" />
+               <label for="firstname">Name </label>
+               <input type=text id="firstname" class="one" />
+               <input type=text id="lastname" class="two"/>
+               <label for="address">Address </label>
+               <input type=text id="address" class="one"/>
+               <input type=text id="city" class="two"/>               
+               <label for="email">Email </label>
+               <input type=email id="email" class="both"/>
+               <button class="one" id="btnSave">Save</button>
+               <button class="two" id="btnDelete">Delete</button>
+            </form>
+         </div>
+         <div class="Portfolio">
+            <div class="StockList">
+               <h2>Portfolio</h2>
+               <div id="listPortfolio">
+                  <h3>Symbol</h3>
+                  <h3># Shares</h3>
+                  <h3>Actions</h3>
+               </div>
+            </div>
+            <div class="StockDetails">
+               <h2>Details</h2>
+               <div id="singleStock">
+                  <div class="logoContainer">
+                     <img id="logo" />
+                  </div>
+                  <p class="stockLabel">Name</p>
+                  <p id="stockName"></p>
+                  <p class="stockLabel">Sector</p>
+                  <p id="stockSector"></p> 
+                  <p class="stockLabel">Industry</p>
+                  <p id="stockIndustry"></p> 
+                  <p class="stockLabel">Address</p>
+                  <p id="stockAddress"></p>                   
+               </div>
+
+            </div>
+         </div>
+
+      </section>
+
+
+</main>
+   
+</body>
+</html>

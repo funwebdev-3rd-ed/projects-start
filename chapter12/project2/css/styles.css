@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+/* general text formatting */
+
+h1, h2, h3, legend, caption {
+ font-family: 'Merriweather', serif;    }
+a {
+  outline: none;
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 1em;
+    background: #FAFAFA;
+}
+
+
+/* classes for the header element and its contents */
+
+.header {
+  transition-duration: 0.3s;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow:  0px 2px 5px 0px rgba(0, 0, 0, 0.1);    
+  background-color: white;    
+}
+
+.header__wrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header__heading {
+  font-size: 32px;
+  font-weight: bold;
+  float: left;
+    color: #5D4037;
+}
+
+.navigation {
+  float: right;
+    font-size: 15px;
+}
+.navigation__list-item {
+  float: left;
+}
+.navigation__list-item a {
+  margin: 0 15px;
+  color: #2962FF;
+  text-decoration: none;
+  padding-top: 20px;
+  display: block;
+  border-bottom: 3px #2962FF solid;
+}
+.navigation__list-item a:hover {
+  border-bottom-color: #FF6D00;
+  color: #FF6D00;
+}
+
+/* css classes for smaller header on scroll */
+
+.header--sticky {
+  padding: 10px 0;
+background: white;    
+}
+.header--sticky h1 a {
+  height: 23px;
+}
+.header--sticky nav ul li a {
+  padding-top: 0;
+  border-bottom: none;
+  margin-top: 11px;
+}
+
+
+/* styling for form */
+
+.form  {
+    margin-top: 120px;
+}
+.form__panel {
+   margin: 1em auto;
+   background-color: #EEEEEE;
+   width: 70%;
+   padding: 0.75em;
+
+}
+.form__heading {
+   background-color: #9E9E9E;
+    color: white;
+   margin: 0 auto;
+   width: 90%;
+   padding: 0.25em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+}
+.form__row {
+   margin-top: 0.5em;
+}
+.form__box {
+   background-color: #BDBDBD;
+   padding: 0.5em;
+    margin-top: 9px;
+    text-align: center;
+}
+.form__input {
+    font-size: 16px;
+    height: 24px;
+    padding: 3px;
+}
+.form__select {
+    height: 30px;
+}
+
+.form__input--large { width: 95% }
+.form__input--medium { width: 40% }
+.form__input--small { width: 20%; }
+
+.form__btn {
+  border: none;
+  border-radius: 3px;
+  height: 32px;
+  color: black;
+  font-size: 14px;
+  background: #EF6C00;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+    color: white;
+}
+
+.form__btn:hover {
+  background: #FF9800;
+  text-decoration: none;
+}
+
+
+/* styling for process results page */
+
+.results {
+     width: 70%;
+    margin: 100px auto;
+}
+
+.results__caption {
+    font-weight: bold;
+    font-size: 110%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px #616161 solid;
+}
+.results__label {
+    text-align: right;
+    font-weight: bold;
+    width: 20%;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+

@@ -1,0 +1,72 @@
+body {
+   font-family: Roboto, sans-serif;
+}
+h1 {
+   background-color: #291d89;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   margin: 0;
+   font-size: 1.5em;
+}
+h2 {
+   margin: 0;
+   font-size: 1.25em;
+}
+h3 {
+   margin: 0;
+   font-size: 1em;
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: 220px 1fr;
+   grid-template-rows: 1fr;
+   grid-template-areas: ". .";
+ }
+ #paintings {
+    margin-top: 5px;
+    max-height: 610px;
+    overflow-y: scroll;
+    background-color: #f0f4ff;
+ }
+ #paintings ul {
+   list-style: none;
+   margin: 0;
+   padding: 15px 20px;
+ }
+ #paintings li {
+    margin: 0;
+ }
+ #paintings img {
+   width: 170px;
+}
+#summary {
+   margin-top: 0.25em;
+}
+#details {
+   padding: 10px;
+
+}
+#details p {
+   margin: 0;
+}
+#details figure {
+   position: absolute;
+   margin: 10px 0;
+   padding: 0;
+}
+#full {
+   height: 500px;
+
+}
+.box {
+   border: 1px solid red;
+   background-color: #3d3D3d;
+   opacity: 0.4;
+}
+#description {
+   font-size: 0.85em;
+
+   position: relative;
+   top: 515px;
+}
