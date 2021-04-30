@@ -1,0 +1,18 @@
+.ui.segment.grey100 {
+    background-color: #F5F5F5;
+    margin: 0 0 10px 0;
+    box-shadow: none;
+    border: none;
+}
+
+
+.hero-container {
+  min-height: 400px;
+  background-image: url(../images/hero1.jpg);
+  background-repeat: no-repeat;
+  background-size: 1700px 900px;
+  background-position: center top;
+    
+    display: flex;
+    align-items: center;
+}

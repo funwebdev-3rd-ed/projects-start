@@ -1,0 +1,86 @@
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 1em;
+ }
+
+header {
+   margin: 1em;
+   background-color: #62B0E8;
+   padding: 10px 0px 10px 10px;
+}
+
+select {
+   padding: 5px;
+}
+input[type=text] {
+   padding: 4px;
+}
+
+button {
+   padding: 7px 15px;
+   color: white;
+   border: 0;
+   border-radius: 3px;
+}
+
+.btn-primary {
+   background-color: #BA2525;
+}
+.btn-secondary {
+   background-color: #857F72;
+}
+
+
+ul {
+   display: grid;
+   grid-column-gap: 5px;
+   grid-row-gap: 2px;
+   grid-template-columns: repeat( auto-fill, 150px );
+
+   list-style: none;
+   padding: 0;
+   margin: 1em;
+}
+li {
+   display: block;
+   padding: 0;
+   margin: 0;
+}
+
+
+.detail {
+   display: grid;
+   grid-template-columns: 650px auto;
+}
+
+.detail h1 {
+   font-weight: 600;
+   font-size: 1.45em;
+   margin: 0;
+   border-bottom: 1pt solid #857F72;
+}
+.detail h3 {
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.15em;
+}
+.detail a:link, .detail a:visited {
+   color:  #0F609B;
+}
+.box {
+   margin-top: 8px;
+   border: 1pt solid #E8E6E1;
+   padding: 5px;
+}
+.box p {
+   margin: 0;
+}
+
+.colorBoxes span {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-right: 5px;
+}
