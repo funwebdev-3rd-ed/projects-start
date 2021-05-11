@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+p, h1, h2, h3, ul, li, body {
+    padding: 0;
+    margin: 0;    
+}
+
+
+h1, h2, h3, nav, footer {
+ font-family: Lobster, Cambria, "Times New Roman", serif;
+ color: #FAFAFA;   
+}
+body {
+   font-family: "Open Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+
+
+}
+header {
+    padding: 15px;
+    width: auto; 
+    margin: 0 0;
+ 
+
+    height: 50px;
+}
+header h2 {    
+    float: left;
+    font-size: 28pt;  
+    margin-left:10px;
+}
+header nav {
+     float: right;  
+    margin: 10px 15px 10px 10px;
+    top: 5px;
+}
+
+main {
+    margin: 20px 10px;
+}
+
+
+section {
+   margin: 1em auto;
+   clear: left;
+   
+   width: 90%;    
+}
+
+section h1 {
+   margin-left: 1.5em; 
+    font-size: 24pt;
+}
+
+
+figure {
+    float: left; 
+    width: 490px;
+
+}
+figcaption {
+   margin-bottom: 1em;   
+}
+
