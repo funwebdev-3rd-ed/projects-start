@@ -1,0 +1,13 @@
+#react-container {
+    margin-top: 2rem;
+}
+
+.content-rectangle {
+    height: 10.5rem;
+}
+
+fieldset#box { margin: 1rem; padding: 0.5rem; }
+
+.panel {
+    padding: 0.5rem;
+}
