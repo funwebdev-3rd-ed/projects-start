@@ -1,0 +1,185 @@
+/* purple + orange + blues
+ :root {
+  --list-back: #bccbde;
+  --details-back: #e6e9f0;
+  --header-back: #431c5d;
+  --button-back: #e05915;
+  --border-color: #c2dde6;
+  --box-back: white;
+} */
+
+:root {
+  --list-back: #2b7a78;
+  --favorites-back: #def2f1;
+  --details-back: #feffff;
+  --details-box-back: #def2f1;
+  --header-back: #17252A;
+  --button-back: #3aafa9;
+  --border-color: #c2dde6;
+  --list-box-back: #feffff;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10px;
+  background: var(--header-back);
+  color: white;
+  padding: 10px;
+}
+
+.header-titles h1 {
+  font-size: 2em;
+}
+.header p {
+  margin: 0;
+}
+button {
+  margin: 0 0.5rem;
+  background: var(--button-back);
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius:5px;
+  font-size: 1em;  
+}
+
+.container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 47% auto;
+  grid-gap: 0;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-gap: 5px;
+  background-color: var(--list-back);
+}
+
+.photoBox {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-gap: 2px;
+
+  background-color: var(--list-box-back);
+  margin: 0.75rem;
+  padding: 0.5rem;
+  place-self: center center;
+  justify-content: space-evenly;
+  
+
+}
+.photoBox button {
+  padding: 5px;
+  font-size: 0.75em;
+  border-radius: 3px;
+  margin: 0;
+}
+.photoBox h3 {
+  font-size: 0.85em;
+  font-weight: bold;
+}
+.photoBox p {
+  font-size: 0.75em;
+  margin: 0.25em 0 0.25em 0;
+}
+.photoBox button {
+  margin: 0 0.5em;
+  min-width: 2.5em;
+
+}
+
+img.photoThumb {
+  width: 100px;
+  height: 100px;
+}
+
+.details {
+  background-color: var(--details-back);
+  padding: 0.5em;
+  width: 95%
+}
+.detailsPhotoBox {
+  box-sizing: border-box;
+  margin: 0.75em;
+ 
+  padding: 1em;
+  background-color: var(--details-box-back)
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+legend {
+  font-weight: bold;
+  color: var(--list-back);
+  font-size: 1.2em;
+}
+.photoForm img {
+   width: 100%
+}
+
+.favorites {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-auto-flow: column;
+
+  align-items: center;
+  grid-gap: 5px;
+  background: var(--favorites-back);
+  color: var(--header-back);
+  padding: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.banner {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner div h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+}
+.banner div h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+}
+
+.banner div {
+  display: inline-block;
+  margin-top: 200px;
+}
