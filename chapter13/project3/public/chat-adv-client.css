@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(210, 21%, 88%);
+    font: 14px/20px "Open Sans", Arial, sans-serif;
+    padding: 40px 0;
+    color: hsl(209,15%,28%);
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+aside.chat {
+    width: 750px;    
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 2px; 
+
+    animation: scaleUpCenter .4s ease-out both;
+}
+@keyframes scaleUpCenter {
+	from { opacity: 0; transform: scale(.2); }
+}
+
+
+/* ------------- Styles for Chat Messages -------------- */
+
+section#messages {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.messages-header {
+    background-color: hsl(241, 2%, 96%);
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.messages-header h3 {
+    font-size: 1.75rem;
+    color: hsl(213, 21%, 16%);
+    
+    margin: 0;
+}
+
+
+
+.message-data span {
+    color: #adb5bd;
+    padding-left: 1rem;
+}
+.messages-body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0.5rem;
+    height: 600px;
+    max-height: 600px;    
+}
+.messages-body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;     
+}
+.message-text {
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+   
+}
+.message-received .message-text {
+    background-color: #f4ca64;    
+}
+.message-sent .message-text {
+    background-color: #74d99f;    
+}
+.message-user .message-text {
+    background-color: hsl(210, 21%, 88%);   
+    color: hsl(209,15%,28%) 
+}
+li.message-received {
+    margin-left: 4rem;
+}
+li.message-sent {
+    margin-right: 4rem;
+}
+.message-received .message-data {
+    text-align: right;
+}
+.message-sent .message-data {
+    text-align: left;
+}
+
+.messages-footer {
+    background-color: hsl(241, 2%, 96%);
+    padding: 1rem 1rem;
+
+}
+
+
+/* ------------- Styles for Chat Form -------------- */
+
+input[type='text'] {
+    width: 100%;
+    height: 3rem;
+    margin: 0.25rem;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;   
+  }
+
+.form-button button {
+    color: hsl(207, 78%, 64%);
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: hsl(241, 2%, 96%);
+}
+
+
+/* ------------- Styles for List of users -------------- */
+
+section#users {
+    background-color: hsl(207, 78%, 64%);
+    padding: 0.25rem;
+    color: white;
+    border-radius: 5px;
+}
+#users ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 750px;
+    max-height: 750px;     
+}
+#users li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0.5rem;
+}
+
+#users img {
+    display: block;
+    border: 4px solid #aad4f5;
+    
+}
+
+#users .name {
+    margin: 0.25rem;
+}
+.name p:first-child {
+    font-weight: bold;
+    margin: 0;
+}
+.name p:nth-child(2) {
+    color: #aad4f5;
+    margin: 0;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter 20</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="chat-adv-client.css">	
+   
+</head>
+<body>
+
+<main>
+    <aside class="chat">
+        <section id="users">
+            <ul>
+                <li>
+                    <img src="https://randomuser.me/api/portraits/med/men/1.jpg" alt="avatar" />
+                    <div class="name">
+                        <p>Randy</p>
+                        <p>online</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://randomuser.me/api/portraits/med/men/2.jpg" alt="avatar" />
+                    <div class="name">
+                        <p>Ricardo</p>
+                        <p>online</p>
+                    </div>
+                </li>  
+                <li>
+                    <img src="https://randomuser.me/api/portraits/med/women/2.jpg" alt="avatar" />
+                    <div class="name">
+                        <p>Janet</p>
+                        <p>online</p>
+                    </div>
+                </li>                              
+            </ul>
+        </section>
+        <section id="messages">
+
+            <div class="messages-header">
+                <h3>Chat</h3>
+                <div class="form-button">
+                    <button id="leave">Leave</button>
+                </div>
+            </div>
+            <div class="messages-body">
+                <ul>
+                    <li class="message-received">
+                        <p class="message-data">
+                            Janet <span>Today</span>
+                        </p>
+                        <p class="message-text">This is a received message</p>
+                    </li>
+                    <li class="message-received">
+                        <p class="message-data">
+                            Ricardo <span>Today</span>
+                        </p>
+                        <p class="message-text">This is a really long messsage that is here. This is a really long messsage that is here  </p>
+                    </li>  
+                    <li class="message-user">
+                        <p class="message-data">
+                            Ricardo <span>Today</span>
+                        </p>
+                        <p class="message-text">Has joined</p>
+                    </li>                                       
+                    <li class="message-sent">
+                        <p class="message-data">
+                            Randy <span>Today</span>
+                        </p>
+                        <p class="message-text">This is a sent message</p>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="messages-footer">
+                <form id="chatForm" >
+                    <input type="text" id="entry" />
+                    <div class="form-button">
+                        <button type="submit">Send</button>
+                    </div>
+                    
+                </form>        
+            </div>
+
+        </section>
+
+    </aside>                              
+</main>    
+</body>
+</html>

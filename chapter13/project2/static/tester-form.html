@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lab 13 - Project 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <script src="tester.js"></script> 
+</head>
+<body>
+    <article class="section">
+      <form id="stockForm">
+        <h1 class="title is-4">Tester - Lab 13 - Project 2</h1>
+        <div class="box has-background-light">
+            <strong>Easy way to test is via:</strong>
+            <ol >
+              <li class="ml-3 mt-2">verify GET works using <a href="/adbe">View ADBE link</a> in separate tab</li>
+              <li class="ml-3 mt-2">update company info (but not symbol) and use Update button</li>
+              <li class="ml-3 mt-2">verify it worked using <a href="/adbe">View ADBE link</a> in separate tab</li>
+              <li class="ml-3 mt-2">delete company via Delete Button</li>
+              <li class="ml-3 mt-2">verify it worked using <a href="/adbe">View ADBE link</a> in separate tab</li>
+              <li class="ml-3 mt-2">insert ADBE company via Insert Button</li>
+              <li class="ml-3 mt-2">verify it worked using <a href="/adbe">View ADBE link</a> in separate tab</li>
+            </ol>
+        </div>
+
+
+        <label class="label">Symbol</label>
+        <input class="input" type="text" value="ADBE" id="symbol" name="symbol">
+        
+        <label class="label">Name</label>
+        <input class="input" type="text" value="Adobe Systems Inc" id="company" name="company">        
+        
+        <label class="label">Sector</label>
+        <input class="input" type="text" value="Information Technology" id="sector" name="sector"> 
+        
+        <label class="label">Sub Industry</label>
+        <input class="input" type="text" value="Application Software" id="sub" name="sub"> 
+        
+        <label class="label">Address</label>
+        <input class="input" type="text" value="San Jose, California" id="address" name="address"> 
+        
+        <label class="label">Exchange</label>
+        <input class="input" type="text" value="Nasdaq Global Select" id="exchange" name="exchange">      
+        
+        <div class="box">
+            <button class="button is-info" id="btnInsert">
+              Insert (HTTP POST)
+            </button>
+            <button class="button is-primary" id="btnUpdate">
+              Update (HTTP PUT)
+            </button>        
+            <button class="button is-danger" id="btnDelete">
+              Delete (HTTP DELETE)
+            </button>           
+        </div>
+    
+        <div class="notification is-warning" id="notifier"></div>
+      </form>
+    </article>
+
+</body>
+</html>   

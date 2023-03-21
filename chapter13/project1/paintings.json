@@ -1,0 +1,1752 @@
+[
+   {
+      "paintingID":578,
+      "title":"Madonna and Child",
+      "yearOfWork":1315,
+      "imageFileName":"114030.jpg",
+      "artist":{
+         "artistID":114,
+         "firstName":null,
+         "lastName":"Giotto"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":62,
+      "height":85,
+      "medium":"Tempera on panel",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.397.html",
+         "accessionNumber":"1939.1.256",
+         "copyrightText":"Open Access",
+         "excerpt":"Painted during the latter part of Giotto's career, the Madonna and Child was the central part of a five-section polyptych",
+         "cost":1900,
+         "MSRP":2300,
+         "description":"Painted during the latter part of Giotto's career, the Madonna and Child was the central part of a five-section polyptych, or altarpiece in many panels (see Reconstruction). Giotto utilized a conservative Byzantine-style background in gold leaf, symbolizing the realm of heaven, and included a white rose, the traditional symbol of Mary's purity as well as a reference to the innocence lost through Original Sin. Yet, the Madonna and Child introduces a new naturalistic trend in painting. Instead of making the blessing gesture of a philosopher, the infant Christ grasps his mother's left index finger in a typically baby-like way as he playfully reaches for the flower that she holds."
+      }
+   },
+   {
+      "paintingID":375,
+      "title":"The Adoration of the Magi",
+      "yearOfWork":1450,
+      "imageFileName":"092030.jpg",
+      "artist":{
+         "artistID":92,
+         "firstName":"Filippo",
+         "lastName":"Lippi"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":137,
+      "height":137,
+      "medium":"Tempera on canvas",
+      "details":{
+         "museumLink":"https://www.nga.gov/collection/art-object-page.41581.html",
+         "accessionNumber":"1952.2.2",
+         "copyrightText":"Open Access",
+         "excerpt":"This brilliantly colored, richly decorated circular panel presents a splendid vision of the arrival of the Magi, accompanied by a courtly entourage. ",
+         "cost":800,
+         "MSRP":900,
+         "description":"This brilliantly colored, richly decorated circular panel presents a splendid vision of the arrival of the Magi, accompanied by a courtly entourage. A 1492 inventory of Lorenzo de' Medici's estate possibly identifies this picture as the most valuable in the collection of the powerful Florentine family, and attributes it to Fra Angelico. The Adoration of the Magi actually appears to be the product of two artists; Fra Angelico may only have started the altarpiece, the greatest part of the work having been taken up by Fra Filippo Lippi."
+      }
+   },
+   {
+      "paintingID":542,
+      "title":"Portrait of Isabella of Portugal",
+      "yearOfWork":1450,
+      "imageFileName":"134020.jpg",
+      "artist":{
+         "artistID":134,
+         "firstName":"Rogier van der",
+         "lastName":"Weyden"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":37,
+      "height":46,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/651/workshop-of-rogier-van-der-weyden-portrait-of-isabella-of-portugal-netherlandish-about-1450/",
+         "accessionNumber":"78.PB.3",
+         "copyrightText":"Public domain",
+         "excerpt":"Seated with her hands crossed in her lap, Isabella of Portugal, the duchess of Burgundy, conveys the poise and confidence of her noble position.",
+         "cost":700,
+         "MSRP":900,
+         "description":"Seated with her hands crossed in her lap, Isabella of Portugal, the duchess of Burgundy, conveys the poise and confidence of her noble position. Her sumptuous attire, heavily woven with gold thread, and her jeweled fingers and headdress reflect her aristocratic status. Oddly, the artist did not match the patterns of the sleeves, as would have been customary during this period."
+      }
+   },
+   {
+      "paintingID":387,
+      "title":"Ginevra de' Benci",
+      "yearOfWork":1474,
+      "imageFileName":"097030.jpg",
+      "artist":{
+         "artistID":97,
+         "firstName":"Leonardo",
+         "lastName":"da Vinci"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":38,
+      "height":37,
+      "medium":"Oil on panel",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.50724.html",
+         "accessionNumber":"1967.6.1.a",
+         "copyrightText":"Open Access",
+         "excerpt":"Ginevra de Benci was an aristocrat from 15th-century Florence, admired for her intelligence by Florentine contemporaries. She is the subject of a portrait painting by Leonardo da Vinci.",
+         "cost":650,
+         "MSRP":900,
+         "description":"Ginevra de Benci was an aristocrat from 15th-century Florence, admired for her intelligence by Florentine contemporaries. She is the subject of a portrait painting by Leonardo da Vinci. The oil-on-wood portrait was acquired by the National Gallery of Art in Washington, D.C., in 1967, for US$5 million paid to the Princely House of Liechtenstein, a record price at the time, from the Ailsa Mellon Bruce Fund. It is the only painting by Leonardo on public view in the Americas."
+      }
+   },
+   {
+      "paintingID":399,
+      "title":"Alba Madonna",
+      "yearOfWork":1510,
+      "imageFileName":"099060.jpg",
+      "artist":{
+         "artistID":99,
+         "firstName":null,
+         "lastName":"Raphael"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":94,
+      "height":94,
+      "medium":"Oil transferred from wood to canvas",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.26.html",
+         "accessionNumber":"1937.1.24",
+         "copyrightText":"Open Access",
+         "excerpt":"The Alba Madonna is a painting by the Italian High Renaissance artist Raphael, depicting Mary, Jesus and John the Baptist, in a typical Italian countryside. John the Baptist is holding up a cross to Jesus, which the baby Jesus is grasping. All three figures are staring at the cross. The three figures are grouped to the left in the round design, but the outstretched arm of the Madonna and the billowing material of her cloak balance the image.",
+         "cost":600,
+         "MSRP":700,
+         "description":"The Alba Madonna is a painting by the Italian High Renaissance artist Raphael, depicting Mary, Jesus and John the Baptist, in a typical Italian countryside. John the Baptist is holding up a cross to Jesus, which the baby Jesus is grasping. All three figures are staring at the cross. The three figures are grouped to the left in the round design, but the outstretched arm of the Madonna and the billowing material of her cloak balance the image."
+      }
+   },
+   {
+      "paintingID":405,
+      "title":"Portrait of Bindo Altoviti",
+      "yearOfWork":1515,
+      "imageFileName":"099120.jpg",
+      "artist":{
+         "artistID":99,
+         "firstName":null,
+         "lastName":"Raphael"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":60,
+      "height":44,
+      "medium":"Oil on wood",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.12131.html",
+         "accessionNumber":"1943.4.33",
+         "copyrightText":"Open Access",
+         "excerpt":"The Portrait of Bindo Altoviti is a painting finished around 1515 by the Italian High Renaissance painter Raphael. Bindo Altoviti was a rich banker born in Rome in 1491, but of Florentine origin.",
+         "cost":600,
+         "MSRP":660,
+         "description":"The Portrait of Bindo Altoviti is a painting finished around 1515 by the Italian High Renaissance painter Raphael. Bindo Altoviti was a rich banker born in Rome in 1491, but of Florentine origin. He was a cultured man who loved the arts. The graceful, almost effeminate position of the subject along with the heavy contrast between light and shadow are atypical of Raphael's work, particularly of his portraits of men, demonstrating the artist's experimentation with different styles and forms in his later Roman period. The influence of the works of Leonardo, which Raphael studied astutely during this period of his career, are strikingly evident in this particular piece."
+      }
+   },
+   {
+      "paintingID":499,
+      "title":"Venus and Adonis",
+      "yearOfWork":1558,
+      "imageFileName":"100050.jpg",
+      "artist":{
+         "artistID":100,
+         "firstName":null,
+         "lastName":"Titian"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":196,
+      "height":160,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/846/titian-tiziano-vecellio-venus-and-adonis-italian-about-1555-1560/",
+         "accessionNumber":"92.PA.42",
+         "copyrightText":"Public domain",
+         "excerpt":"The composition's dynamism springs from the torsion caused by Venus's awkward pose, which was inspired by an ancient sculptural relief. Titian used rich colors, shimmering highlights, and a lush landscape to create the painting's evocative, poignant mood.",
+         "cost":800,
+         "MSRP":1000,
+         "description":"Titian's loose, energetic strokes of paint give the painting a sense of spontaneity and movement. In some areas, the artist even painted with his finger, as seen in Adonis's arm. The composition's dynamism springs from the torsion caused by Venus's awkward pose, which was inspired by an ancient sculptural relief. Titian used rich colors, shimmering highlights, and a lush landscape to create the painting's evocative, poignant mood."
+      }
+   },
+   {
+      "paintingID":593,
+      "title":"Christ on the Cross",
+      "yearOfWork":1610,
+      "imageFileName":"121040.jpg",
+      "artist":{
+         "artistID":121,
+         "firstName":"El",
+         "lastName":"Greco"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":51,
+      "height":82,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/129847/el-greco-domenico-theotocopuli-christ-on-the-cross-greek-1600-1610/",
+         "accessionNumber":2000.4,
+         "copyrightText":"Public domain",
+         "excerpt":"On a road leading to the walled city of Jerusalem, horsemen pass by the execution hill, literally turning their backs on Christ. El Greco's use of dramatic colors and exaggerated proportions distorts the figure.",
+         "cost":700,
+         "MSRP":900,
+         "description":"Isolated atop a mountain, a gaunt, tormented Christ dominates a nearly empty landscape. On a road leading to the walled city of Jerusalem, horsemen pass by the execution hill, literally turning their backs on Christ. El Greco's use of dramatic colors and exaggerated proportions distorts the figure, conveying the transcendent moment when Christ sublimated his physical pain and commended his spirit to God. Turning his eyes upward toward heaven, Christ looks away from the bones and skulls that lie at his feet, representative of his triumph over death. Light plays across his undulating form, illuminating his tortured body against the dark background. To heighten empathy between the viewer and Christ, the elongated but graceful figure appears alone. This private, devotional image was meant to encourage contemplation and spiritual reflection."
+      }
+   },
+   {
+      "paintingID":533,
+      "title":"Portrait of Agostino Pallavicini",
+      "yearOfWork":1621,
+      "imageFileName":"103040.jpg",
+      "artist":{
+         "artistID":103,
+         "firstName":"Anthony van",
+         "lastName":"Dyck"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":141,
+      "height":216,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/524/anthony-van-dyck-portrait-of-agostino-pallavicini-flemish-about-1621/",
+         "accessionNumber":"68.PA.2",
+         "copyrightText":"Public domain",
+         "excerpt":"Agostino Pallavicini, a member of the Genoese branch of the Pallavicini family and the future doge of Genoa, sits enveloped by the sumptuous, flowing red robes worn in his role as ambassador to the Pope.",
+         "cost":900,
+         "MSRP":1000,
+         "description":"Agostino Pallavicini, a member of the Genoese branch of the Pallavicini family and the future doge of Genoa, sits enveloped by the sumptuous, flowing red robes worn in his role as ambassador to the Pope. The wide expanse of fabric, spectacularly rendered, seems to have a life of its own and almost threatens to take over the painting. The luxurious swirl of cloth, its brilliant sheen, and the way it glimmers and reflects light display Anthony van Dyck's virtuosity as a painter. The family coat of arms seen on the drapery behind the sitter at the left, along with other documented portraits, firmly establishes Pallavicini's identity."
+      }
+   },
+   {
+      "paintingID":455,
+      "title":"Portrait of a Couple, Probably Isaac Abrahamsz Massa and Beatrix van der Laen",
+      "yearOfWork":1622,
+      "imageFileName":"123010.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":140,
+      "height":166,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8608",
+         "accessionNumber":"SK-A-133",
+         "copyrightText":"Public domain",
+         "excerpt":"This happy, smiling pair sits comfortably close to each other. Posing a couple together in this way was highly unusual at the time. It may have been prompted by the sitters' friendship with the painter and the occasion for the commission of their marriage in April 1622. The painting thus contains references to love and devotion, such as the garden of love at right, and at left an eryngium thistle.",
+         "cost":700,
+         "MSRP":900,
+         "description":"This happy, smiling pair sits comfortably close to each other. Posing a couple together in this way was highly unusual at the time. It may have been prompted by the sitters' friendship with the painter and the occasion for the commission of their marriage in April 1622. The painting thus contains references to love and devotion, such as the garden of love at right, and at left an eryngium thistle."
+      }
+   },
+   {
+      "paintingID":471,
+      "title":"Self-portrait",
+      "yearOfWork":1628,
+      "imageFileName":"105060.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":187,
+      "height":22,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5236",
+         "accessionNumber":"SK-A-4691",
+         "copyrightText":"Public domain",
+         "excerpt":"Here the light glances along his right cheek, while the rest of his face is veiled in shadow. It takes a while to realize that the artist is gazing intently out at us.",
+         "cost":800,
+         "MSRP":900,
+         "description":"Even as an inexperienced young artist, Rembrandt did not shy away from experimenting. Here the light glances along his right cheek, while the rest of his face is veiled in shadow. It takes a while to realize that the artist is gazing intently out at us. Using the butt end of his brush, Rembrandt made scratches in the still wet paint to accentuate the curls of his tousled hair."
+      }
+   },
+   {
+      "paintingID":460,
+      "title":"A Militiaman Holding a Berkemeyer",
+      "yearOfWork":1629,
+      "imageFileName":"123060.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":81,
+      "height":66,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8609",
+         "accessionNumber":"SK-A-135",
+         "copyrightText":"Public domain",
+         "excerpt":"This militiaman merrily raises his glass to toast us - who would not wish to join him? The execution is just as free and easy as the sitter himself: the swift, spontaneously applied brushstrokes enhance the portrait's sense of liveliness and animation. The man actually seems to be moving. This bravura painting style ensured the continued success of Frans Hals.",
+         "cost":800,
+         "MSRP":900,
+         "description":"This militiaman merrily raises his glass to toast us - who would not wish to join him? The execution is just as free and easy as the sitter himself: the swift, spontaneously applied brushstrokes enhance the portrait's sense of liveliness and animation. The man actually seems to be moving. This bravura painting style ensured the continued success of Frans Hals."
+      }
+   },
+   {
+      "paintingID":579,
+      "title":"Self-Portrait",
+      "yearOfWork":1630,
+      "imageFileName":"112020.jpg",
+      "artist":{
+         "artistID":112,
+         "firstName":"Judith",
+         "lastName":"Leyster"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":65,
+      "height":74,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.37003.html",
+         "accessionNumber":"1949.6.1",
+         "copyrightText":"Open Access",
+         "excerpt":"Judith Leyster's Self-Portrait exudes self-confidence in her abilities, and it has become one of the National Gallery of Art's most popular Dutch paintings. Leyster has depicted herself at her easel, briefly interrupting work on a painting of a violin player to interact with the viewer. The momentary quality of the portrait and the vigorous brushwork echo the work of Frans Hals.",
+         "cost":700,
+         "MSRP":900,
+         "description":"Judith Leyster's Self-Portrait exudes self-confidence in her abilities, and it has become one of the National Gallery of Art's most popular Dutch paintings. Leyster has depicted herself at her easel, briefly interrupting work on a painting of a violin player to interact with the viewer. The momentary quality of the portrait and the vigorous brushwork echo the work of Frans Hals."
+      }
+   },
+   {
+      "paintingID":594,
+      "title":"An Old Man in Military Costume",
+      "yearOfWork":1630,
+      "imageFileName":"105140.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":51,
+      "height":66,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/673/rembrandt-harmensz-van-rijn-an-old-man-in-military-costume-dutch-about-1630-1631/",
+         "accessionNumber":"78.PB.246",
+         "copyrightText":"Public domain",
+         "excerpt":"The subject, who appears in different guises in several other paintings by Rembrandt van Rijn and his contemporaries, wears a plumed hat and metal breastplate.",
+         "cost":700,
+         "MSRP":900,
+         "description":"The subject, who appears in different guises in several other paintings by Rembrandt van Rijn and his contemporaries, wears a plumed hat and metal breastplate. His military costume may symbolize Dutch strength and patriotism during the struggle for independence from Spain. Although he faces front, the man's torso is turned in a three-quarter view; his watery eyes gazing off to the side give the image a sense of immediacy."
+      }
+   },
+   {
+      "paintingID":477,
+      "title":"Jeremiah Lamenting the Destruction of Jerusalem",
+      "yearOfWork":1630,
+      "imageFileName":"105120.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":46,
+      "height":58,
+      "medium":"Oil on panel",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5242",
+         "accessionNumber":"SK-A-3276",
+         "copyrightText":"Public domain",
+         "excerpt":"Downcast, the biblical prophet Jeremiah leans his tired head on his hand. He mourns the burning city of Jerusalem (left background), the destruction of which he had predicted. ",
+         "cost":700,
+         "MSRP":900,
+         "description":"Downcast, the biblical prophet Jeremiah leans his tired head on his hand. He mourns the burning city of Jerusalem (left background), the destruction of which he had predicted. The most important part of the depiction - the figure of Jeremiah - is painted with great precision, while his surroundings are barely worked out. Rembrandt used powerful contrasts of light and shadow to heighten the drama of the scene."
+      }
+   },
+   {
+      "paintingID":470,
+      "title":"Portrait of Johannes Wtenbogaert",
+      "yearOfWork":1633,
+      "imageFileName":"105050.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":103,
+      "height":130,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.50214",
+         "accessionNumber":"SK-A-4885",
+         "copyrightText":"Public domain",
+         "excerpt":"The 76-year-old Remonstrant minister, once the court chaplain of Prince Maurice, wears a calotte (skullcap) and a fur-lined cloak, the kind of clothing elderly scholars preferred to be portrayed in. Wtenbogaert's face is more realistically modelled than his hands, which may have been done by a pupil in Rembrandt's workshop.",
+         "cost":1000,
+         "MSRP":1200,
+         "description":"The 76-year-old Remonstrant minister, once the court chaplain of Prince Maurice, wears a calotte (skullcap) and a fur-lined cloak, the kind of clothing elderly scholars preferred to be portrayed in. Wtenbogaert's face is more realistically modelled than his hands, which may have been done by a pupil in Rembrandt's workshop."
+      }
+   },
+   {
+      "paintingID":472,
+      "title":"Portrait of Marten Soolmans",
+      "yearOfWork":1634,
+      "imageFileName":"105070.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":132,
+      "height":207,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.612987",
+         "accessionNumber":"SK-A-5033",
+         "copyrightText":"Public domain",
+         "excerpt":"Painted on the occasion of his marriage to Oopjen Coppit in 1634",
+         "cost":600,
+         "MSRP":700,
+         "description":"Painted on the occasion of his marriage to Oopjen Coppit in 1634 and in 2015 purchased from the Rothschilds as part of a joint collaboration between the Rijksmuseum and the Louvre. It is considered a pendant portrait, and the portrait of his wife was included in the sale. Together the paintings were sold for 160 million Euro"
+      }
+   },
+   {
+      "paintingID":475,
+      "title":"Portrait of Haesje Jacobsdr van Cleyburg",
+      "yearOfWork":1634,
+      "imageFileName":"105100.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":53,
+      "height":68,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5225",
+         "accessionNumber":"SK-A-4833",
+         "copyrightText":"Public domain",
+         "excerpt":"Haesje van Cleyburg, the wife of a wealthy Rotterdam beer brewer, is fashionably yet extremely soberly dressed.",
+         "cost":700,
+         "MSRP":800,
+         "description":"Haesje van Cleyburg, the wife of a wealthy Rotterdam beer brewer, is fashionably yet extremely soberly dressed. She has not been made more beautiful than she was: the wrinkles, shadows under her eyes, the bushy eyebrows, and the greying hair are all rendered with painstaking realism. What makes the portrait so charming is the faint smile that plays across her slightly parted lips."
+      }
+   },
+   {
+      "paintingID":456,
+      "title":"Portrait of Feyntje van Steenkiste",
+      "yearOfWork":1635,
+      "imageFileName":"123020.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":123,
+      "height":93,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8611",
+         "accessionNumber":"SK-C-557",
+         "copyrightText":"Public domain",
+         "excerpt":"This pendant portrays the wife of Lucas de Clercq. Spouses were customarily depicted separately, the husband on the left and the wife on the right, both turned towards each other. The light almost always came from the left, illuminating the face of the woman evenly, and casting striking shadows on that of the man. Hals portrayed the woman - as was usual - in a more static pose than that of the man.",
+         "cost":700,
+         "MSRP":800,
+         "description":"This pendant portrays the wife of Lucas de Clercq. Spouses were customarily depicted separately, the husband on the left and the wife on the right, both turned towards each other. The light almost always came from the left, illuminating the face of the woman evenly, and casting striking shadows on that of the man. Hals portrayed the woman - as was usual - in a more static pose than that of the man."
+      }
+   },
+   {
+      "paintingID":457,
+      "title":"Portrait of Lucas de Clercq",
+      "yearOfWork":1635,
+      "imageFileName":"123030.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":126,
+      "height":93,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8612",
+         "accessionNumber":"SK-C-556",
+         "copyrightText":"Public domain",
+         "excerpt":" In this portrait, the Haarlem merchant Lucas de Clercq is shown with his left arm akimbo and his right arm resting on his stomach.",
+         "cost":700,
+         "MSRP":800,
+         "description":"Frans Hals, like no other, was able to bring his sitters to life. In this portrait, the Haarlem merchant Lucas de Clercq is shown with his left arm akimbo and his right arm resting on his stomach. Even though his hands are hidden and still, his vitality is expressed in the animated contour of his body and his slightly turned head."
+      }
+   },
+   {
+      "paintingID":459,
+      "title":"Portrait of a Woman",
+      "yearOfWork":1635,
+      "imageFileName":"123050.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":79,
+      "height":66,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8607",
+         "accessionNumber":"SK-A-1247",
+         "copyrightText":"Public domain",
+         "excerpt":"Compared with the dynamic Portrait of a Man, this one of his wife makes a somewhat more formal impression. The pose is traditional, with the upper torso turned slightly to the left. She looks straight at the viewer, her lips slightly parted as though she is about to speak. ",
+         "cost":700,
+         "MSRP":800,
+         "description":"Compared with the dynamic Portrait of a Man, this one of his wife makes a somewhat more formal impression. The pose is traditional, with the upper torso turned slightly to the left. She looks straight at the viewer, her lips slightly parted as though she is about to speak. Her face is rendered in much thinner paint than that of her husband, beautifully suggesting the greater softness of a woman's skin."
+      }
+   },
+   {
+      "paintingID":461,
+      "title":"Militia Company of District XI",
+      "yearOfWork":1637,
+      "imageFileName":"123070.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":4,
+         "name":"Panoramic"
+      },
+      "width":429,
+      "height":209,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8613",
+         "accessionNumber":"SK-C-374",
+         "copyrightText":"Public domain",
+         "excerpt":"A commission for a civic guard portrait was rarely granted to a painter from outside the city. Quite exceptionally, Frans Hals - from Haarlem - was asked to paint this group portrait. However, he soon found himself at odds with the guardsmen.",
+         "cost":1000,
+         "MSRP":1400,
+         "description":"A commission for a civic guard portrait was rarely granted to a painter from outside the city. Quite exceptionally, Frans Hals - from Haarlem - was asked to paint this group portrait. However, he soon found himself at odds with the guardsmen, and the Amsterdam painter Pieter Codde had to step in to finish the seven figures on the right. Known for his small-scale, very smoothly and finely executed works, Codde nevertheless imitated Hals's loose style as best he could."
+      }
+   },
+   {
+      "paintingID":458,
+      "title":"Portrait of Maritge Claesdr Vooght",
+      "yearOfWork":1639,
+      "imageFileName":"123040.jpg",
+      "artist":{
+         "artistID":123,
+         "firstName":"Frans",
+         "lastName":"Hals"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":128,
+      "height":94,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8688",
+         "accessionNumber":"SK-C-139",
+         "copyrightText":"Public domain",
+         "excerpt":"Maritge Vooght, wife of the mayor Pieter Olycan, is here portrayed in a traditional pose, proudly sitting upright and looking straight out at the viewer.",
+         "cost":700,
+         "MSRP":800,
+         "description":"Frans Hals painted a large number of superb likenesses of members of Haarlem's upper class: he clearly knew how to satisfy the demands of his eminent patrons. Maritge Vooght, wife of the mayor Pieter Olycan, is here portrayed in a traditional pose, proudly sitting upright and looking straight out at the viewer. Hals noted her age, 62, at left. Her coat of arms was added later by a different hand."
+      }
+   },
+   {
+      "paintingID":597,
+      "title":"William II, Prince of Orange, and his Bride, Mary Stuart",
+      "yearOfWork":1641,
+      "imageFileName":"103050.jpg",
+      "artist":{
+         "artistID":103,
+         "firstName":"Anthony van",
+         "lastName":"Dyck"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":142,
+      "height":182,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8289",
+         "accessionNumber":"SK-A-102",
+         "copyrightText":"Public domain",
+         "excerpt":"The boy is fourteen and the girl only nine. William's father, Frederick Henry, commissioned the celebrated Flemish painter Van Dyck to portray the young Dutch prince and English princess on the occasion of their marriage in London.",
+         "cost":1100,
+         "MSRP":1500,
+         "description":"The boy is fourteen and the girl only nine. William's father, Frederick Henry, commissioned the celebrated Flemish painter Van Dyck to portray the young Dutch prince and English princess on the occasion of their marriage in London. The union with the daughter of the English king enhanced the status of the House of Orange. On her gown, Mary wears a gift from William, a large diamond brooch."
+      }
+   },
+   {
+      "paintingID":469,
+      "title":"Militia Company of District II under the Command of Captain Frans Banninck Cocq (Night Watch)",
+      "yearOfWork":1642,
+      "imageFileName":"105040.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":453,
+      "height":379,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5216",
+         "accessionNumber":"SK-C-5",
+         "copyrightText":"Public domain",
+         "excerpt":"Rembrandt's largest, most famous canvas was made for the Arquebusiers guild hall. This was one of several halls of Amsterdam's civic guard, the city's militia and police. Rembrandt was the first to paint figures in a group portrait actually doing something.",
+         "cost":4000,
+         "MSRP":4500,
+         "description":"Rembrandt's largest, most famous canvas was made for the Arquebusiers guild hall. This was one of several halls of Amsterdam's civic guard, the city's militia and police. Rembrandt was the first to paint figures in a group portrait actually doing something. The captain, dressed in black, is telling his lieutenant to start the company marching. The guardsmen are getting into formation. Rembrandt used the light to focus on particular details, like the captain's gesturing hand and the young girl in the foreground. She was the company mascot."
+      }
+   },
+   {
+      "paintingID":507,
+      "title":"Landscape with a Calm\r\nLandscape with a Calm",
+      "yearOfWork":1650,
+      "imageFileName":"132030.jpg",
+      "artist":{
+         "artistID":132,
+         "firstName":"Nicolas",
+         "lastName":"Poussin"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":131,
+      "height":97,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/106381/nicolas-poussin-landscape-with-a-calm-un-temps-calme-et-serein-french-1650-1651/",
+         "accessionNumber":"97.PA.60",
+         "copyrightText":"Public domain",
+         "excerpt":"Landscape with a Calm does not illustrate a story but rather evokes a mood. The ordered composition and clear, golden light contribute to A Calm's utter tranquility, while glowing, gem-like colors and fluid paint strokes enliven this scene of benevolent nature.",
+         "cost":800,
+         "MSRP":1100,
+         "description":"In the late 1640s and early 1650s, at the height of his artistic maturity, Nicolas Poussin turned from historical narrative to landscape painting. Landscape with a Calm does not illustrate a story but rather evokes a mood. The ordered composition and clear, golden light contribute to A Calm's utter tranquility, while glowing, gem-like colors and fluid paint strokes enliven this scene of benevolent nature. Poussin's sketching campaigns in the Roman countryside with his friend and fellow landscape painter Claude Lorrain account, in part, for its fresh observation of cloud-scattered sky and grazing goats."
+      }
+   },
+   {
+      "paintingID":424,
+      "title":"The Milkmaid",
+      "yearOfWork":1657,
+      "imageFileName":"106010.jpg",
+      "artist":{
+         "artistID":106,
+         "firstName":"Jan",
+         "lastName":"Vermeer"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":46,
+      "height":41,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.6417",
+         "accessionNumber":"SK-A-2344",
+         "copyrightText":"Public domain",
+         "excerpt":"The Milkmaid is an oil-on-canvas painting of a \"milkmaid\", in fact a domestic kitchen maid, by the Dutch artist Johannes Vermeer. It is now in the Rijksmuseum in Amsterdam, Netherlands, which regards it as \"unquestionably one of the museum's finest attractions\".",
+         "cost":450,
+         "MSRP":525,
+         "description":"The Milkmaid is an oil-on-canvas painting of a \"milkmaid\", in fact a domestic kitchen maid, by the Dutch artist Johannes Vermeer. It is now in the Rijksmuseum in Amsterdam, Netherlands, which regards it as \"unquestionably one of the museum's finest attractions\". The painting is strikingly illusionistic, conveying not just details but a sense of the weight of the woman and the table. \"The light, though bright, doesn't wash out the rough texture of the bread crusts or flatten the volumes of the maid's thick waist and rounded shoulders\", wrote Karen Rosenberg, an art critic for The New York Times. Yet with half of the woman's face in shadow, it is \"impossible to tell whether her downcast eyes and pursed lips express wistfulness or concentration,\" she wrote."
+      }
+   },
+   {
+      "paintingID":466,
+      "title":"Woman at her Toilet",
+      "yearOfWork":1658,
+      "imageFileName":"124050.jpg",
+      "artist":{
+         "artistID":124,
+         "firstName":"Jan",
+         "lastName":"Steen"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":37,
+      "height":27,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5507",
+         "accessionNumber":"SK-A-4052",
+         "copyrightText":"Public domain",
+         "excerpt":"This is an intimate moment: a girl undressing before going to bed. She is just pulling off a stocking. The indentation left by her garter is visible just below her knee. Her raised skirt allows the viewer a peak up along her bare legs. The image's explicit eroticism did not always find favour; until a hundred years ago, an underskirt was painted over her thighs.",
+         "cost":450,
+         "MSRP":500,
+         "description":"This is an intimate moment: a girl undressing before going to bed. She is just pulling off a stocking. The indentation left by her garter is visible just below her knee. Her raised skirt allows the viewer a peak up along her bare legs. The image's explicit eroticism did not always find favour; until a hundred years ago, an underskirt was painted over her thighs."
+      }
+   },
+   {
+      "paintingID":468,
+      "title":"View of Houses in Delft",
+      "yearOfWork":1658,
+      "imageFileName":"106060.jpg",
+      "artist":{
+         "artistID":106,
+         "firstName":"Jan",
+         "lastName":"Vermeer"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":44,
+      "height":54,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.6419",
+         "accessionNumber":"SK-A-2860",
+         "copyrightText":"Public domain",
+         "excerpt":"This painting of a quiet street with a few figures occupies an exceptional place in Vermeer's oeuvre. Straight angles give the composition balance, while the triangle of the sky introduces a sense of dynamism. The old walls, coarse bricks, and white plasterwork are almost palpable. Vermeer nonetheless took some liberties with reality, such as the oversized green shutters.",
+         "cost":1000,
+         "MSRP":1200,
+         "description":"This painting of a quiet street with a few figures occupies an exceptional place in Vermeer's oeuvre. Straight angles give the composition balance, while the triangle of the sky introduces a sense of dynamism. The old walls, coarse bricks, and white plasterwork are almost palpable. Vermeer nonetheless took some liberties with reality, such as the oversized green shutters."
+      }
+   },
+   {
+      "paintingID":481,
+      "title":"A Mother Delousing her Child’s Hair, Known as ‘A Mother’s Duty’",
+      "yearOfWork":1659,
+      "imageFileName":"126010.jpg",
+      "artist":{
+         "artistID":126,
+         "firstName":"Pieter de",
+         "lastName":"Hooch"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":61,
+      "height":52,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8769",
+         "accessionNumber":"SK-C-149",
+         "copyrightText":"Public domain",
+         "excerpt":"A mother thoroughly inspects her child's head for lice. She pursues her task in a sober Dutch interior, with Delft blue tiles and a box bed. In the right foreground is a potty chair. Through the doorway is a glimpse of a sunny back room and a garden. De Hooch specialized in such 'through-views'.",
+         "cost":700,
+         "MSRP":900,
+         "description":"A mother thoroughly inspects her child's head for lice. She pursues her task in a sober Dutch interior, with Delft blue tiles and a box bed. In the right foreground is a potty chair. Through the doorway is a glimpse of a sunny back room and a garden. De Hooch specialized in such 'through-views'."
+      }
+   },
+   {
+      "paintingID":476,
+      "title":"Self Portrait as the Apostle Paul",
+      "yearOfWork":1661,
+      "imageFileName":"105110.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":77,
+      "height":91,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5280",
+         "accessionNumber":"SK-A-4050",
+         "copyrightText":"Public domain",
+         "excerpt":"This is Rembrandt's first and only self portrait in the guise of a biblical figure. The manuscript and the sword projecting from his cloak are Paul's traditional attributes. Like the other apostles Rembrandt painted in the same period, Paul too is a real, everyday person. By using his own likeness here Rembrandt encourages a direct bond with the saint.",
+         "cost":800,
+         "MSRP":900,
+         "description":"This is Rembrandt's first and only self portrait in the guise of a biblical figure. The manuscript and the sword projecting from his cloak are Paul's traditional attributes. Like the other apostles Rembrandt painted in the same period, Paul too is a real, everyday person. By using his own likeness here Rembrandt encourages a direct bond with the saint."
+      }
+   },
+   {
+      "paintingID":473,
+      "title":"The Sampling Officials of the Amsterdam Drapers Guild",
+      "yearOfWork":1662,
+      "imageFileName":"105080.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":279,
+      "height":191,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5217",
+         "accessionNumber":"SK-C-6",
+         "copyrightText":"Public domain",
+         "excerpt":"This is Rembrandt's first and only corporate group portrait. The Syndics stands out for its exceptionally large format and more than life-sized figures. All eyes of the sampling officials - who assessed the quality of dyed cloth - are turned to us and one figure even rises from his chair as if to acknowledge our presence. Because of the low vantage point, the table seems to jut out of the picture.",
+         "cost":1800,
+         "MSRP":1900,
+         "description":"This is Rembrandt's first and only corporate group portrait. The Syndics stands out for its exceptionally large format and more than life-sized figures. All eyes of the sampling officials - who assessed the quality of dyed cloth - are turned to us and one figure even rises from his chair as if to acknowledge our presence. Because of the low vantage point, the table seems to jut out of the picture."
+      }
+   },
+   {
+      "paintingID":467,
+      "title":"Woman Reading a Letter",
+      "yearOfWork":1663,
+      "imageFileName":"106050.jpg",
+      "artist":{
+         "artistID":106,
+         "firstName":"Jan",
+         "lastName":"Vermeer"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":46,
+      "height":39,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.6420",
+         "accessionNumber":"SK-C-251",
+         "copyrightText":"Public domain",
+         "excerpt":"Enjoying a quiet, private moment, this young woman is absorbed in reading a letter in the morning light. She is still wearing her blue night jacket. All of the colours in the composition are secondary to its radiant lapis lazuli blue. Vermeer recorded the effects of light with extraordinary precision. Particularly innovative is his rendering of the woman's skin with pale grey, and the shadows on the wall using light blue.",
+         "cost":700,
+         "MSRP":900,
+         "description":"Enjoying a quiet, private moment, this young woman is absorbed in reading a letter in the morning light. She is still wearing her blue night jacket. All of the colours in the composition are secondary to its radiant lapis lazuli blue. Vermeer recorded the effects of light with extraordinary precision. Particularly innovative is his rendering of the woman's skin with pale grey, and the shadows on the wall using light blue."
+      }
+   },
+   {
+      "paintingID":482,
+      "title":"Interior with Women beside a Linen Cupboard`",
+      "yearOfWork":1663,
+      "imageFileName":"126020.jpg",
+      "artist":{
+         "artistID":126,
+         "firstName":"Pieter de",
+         "lastName":"Hooch"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":75,
+      "height":70,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.8772",
+         "accessionNumber":"SK-C-1191",
+         "copyrightText":"Public domain",
+         "excerpt":"In a richly appointed house, two women put freshly pressed linen into a cupboard. They have hitched up their skirts to keep them clean while doing household chores. In the doorway a child plays with a kolfstok, a kind of hockey stick. Brightly lit canal houses can be seen.",
+         "cost":670,
+         "MSRP":920,
+         "description":"This scene of domestic virtue dates from De Hooch's Amsterdam period. In a richly appointed house, two women put freshly pressed linen into a cupboard. They have hitched up their skirts to keep them clean while doing household chores. In the doorway a child plays with a kolfstok, a kind of hockey stick. Brightly lit canal houses can be seen."
+      }
+   },
+   {
+      "paintingID":484,
+      "title":"Winter Landscape",
+      "yearOfWork":1665,
+      "imageFileName":"127020.jpg",
+      "artist":{
+         "artistID":127,
+         "firstName":"Jacob van",
+         "lastName":"Ruisdael"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":49,
+      "height":42,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5331",
+         "accessionNumber":"SK-A-349",
+         "copyrightText":"Public domain",
+         "excerpt":" This scene is dominated by ominous dark clouds, and lit from the left by low, raking sunlight.",
+         "cost":700,
+         "MSRP":900,
+         "description":"Ruisdael painted around 25 winter landscapes. This scene is dominated by ominous dark clouds, and lit from the left by low, raking sunlight. The warmly dressed figures on the ice seem insignificant in the face of this inclement weather. A cheerful crowd of ice skaters would have been out of place in such a wintery landscape by Ruisdael."
+      }
+   },
+   {
+      "paintingID":427,
+      "title":"The Love Letter",
+      "yearOfWork":1666,
+      "imageFileName":"106040.jpg",
+      "artist":{
+         "artistID":106,
+         "firstName":"Jan",
+         "lastName":"Vermeer"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":44,
+      "height":38,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.6418",
+         "accessionNumber":"SK-A-1595",
+         "copyrightText":"Public domain",
+         "excerpt":"The painting shows a servant maid handing a letter to a young woman with a cittern. The tied-up curtain in the foreground creates the impression that the viewer is looking at an intensely private, personal scene.",
+         "cost":750,
+         "MSRP":900,
+         "description":"The Love Letter is a 17th-century genre painting by Jan Vermeer. The painting shows a servant maid handing a letter to a young woman with a cittern. The tied-up curtain in the foreground creates the impression that the viewer is looking at an intensely private, personal scene. There is also an element of trompe l'oeil as Dutch paintings were often hung with little curtains to conserve them, and the device of painted curtains is seen in other Dutch works of the period. The diagonals on the chequered floor create the impression of depth and three-dimensionality. The fact that it is a love letter that the woman has received is made clear by the fact that she is carrying a lute (more specifically, a cittern, a member of the lute/guitar family). The lute was a symbol of love - often carnal love; luit was also a slang term for vagina. This idea is further reinforced by the slippers at the very bottom of the picture. The removed slipper was another symbol of sex. The floor brush would appear to represent domesticity, and its placement at the side of the painting may suggest that domestic concerns have been forgotten or pushed aside."
+      }
+   },
+   {
+      "paintingID":464,
+      "title":"The Feast of St Nicholas",
+      "yearOfWork":1666,
+      "imageFileName":"124030.jpg",
+      "artist":{
+         "artistID":124,
+         "firstName":"Jan",
+         "lastName":"Steen"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":82,
+      "height":70,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5500",
+         "accessionNumber":"SK-A-385",
+         "copyrightText":"Public domain",
+         "excerpt":"Good children receive gifts from the saint. The little girl in the foreground, for instance, has a bucket full of treats. Naughty children, like the wailing boy at the left, get only a switch (a bundle of twigs) in their shoe.",
+         "cost":700,
+         "MSRP":800,
+         "description":"The feast of St Nicholas takes place in December. In the Netherlands, it has been celebrated in the same way for centuries. Good children receive gifts from the saint. The little girl in the foreground, for instance, has a bucket full of treats. Naughty children, like the wailing boy at the left, get only a switch (a bundle of twigs) in their shoe. Jan Steen was a born storyteller. He succeeded in incorporating all of the elements of the popular feast in this picture."
+      }
+   },
+   {
+      "paintingID":474,
+      "title":"Portrait of a Couple as Isaac and Rebecca, known as 'The Jewish Bride'",
+      "yearOfWork":1667,
+      "imageFileName":"105090.jpg",
+      "artist":{
+         "artistID":105,
+         "firstName":null,
+         "lastName":"Rembrandt"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":166,
+      "height":121,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5223",
+         "accessionNumber":"SK-C-216",
+         "copyrightText":"Public domain",
+         "excerpt":"The couple's tender embrace is at the centre of this poignant painting: the man's loving gesture is returned with a gentle caress.",
+         "cost":1000,
+         "MSRP":1200,
+         "description":"Two contemporaries had themselves portrayed by Rembrandt in historicizing costumes as characters from the Bible. The couple's tender embrace is at the centre of this poignant painting: the man's loving gesture is returned with a gentle caress. The figures and their poses agree with the study (No 67), only the figure of King Abimelech spying on them is missing. We, the viewers, assume his role as witnesses of their clandestine love."
+      }
+   },
+   {
+      "paintingID":463,
+      "title":"The Merry Family",
+      "yearOfWork":1668,
+      "imageFileName":"124020.jpg",
+      "artist":{
+         "artistID":124,
+         "firstName":"Jan",
+         "lastName":"Steen"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":110,
+      "height":141,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5577",
+         "accessionNumber":"SK-C-229",
+         "copyrightText":"Public domain",
+         "excerpt":"This boisterous family is making a lot of noise: the father sings at the top of his lungs while raising a glass; the mother and grandmother chime in; and the children are either blowing into a wind instrument or smoking a long pipe. The note hanging from the mantelpiece gives away the moral of the story: \"As the old sing, so shall the young twitter.\" What will become of the children if their parents set the wrong example?",
+         "cost":800,
+         "MSRP":1000,
+         "description":"This boisterous family is making a lot of noise: the father sings at the top of his lungs while raising a glass; the mother and grandmother chime in; and the children are either blowing into a wind instrument or smoking a long pipe. The note hanging from the mantelpiece gives away the moral of the story: \"As the old sing, so shall the young twitter.\" What will become of the children if their parents set the wrong example?"
+      }
+   },
+   {
+      "paintingID":462,
+      "title":"Self-portrait",
+      "yearOfWork":1670,
+      "imageFileName":"124010.jpg",
+      "artist":{
+         "artistID":124,
+         "firstName":"Jan",
+         "lastName":"Steen"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":73,
+      "height":62,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.378037",
+         "accessionNumber":"SK-A-383",
+         "copyrightText":"Public domain",
+         "excerpt":"Jan Steen, known primarily for his humorous scenes with simple folk, portrayed himself here as utterly self-assured.",
+         "cost":700,
+         "MSRP":800,
+         "description":"A distinguished citizen dressed in decorous black is seated before a red curtain and tassel. Jan Steen, known primarily for his humorous scenes with simple folk, portrayed himself here as utterly self-assured. He also regularly included himself in other paintings, but then usually in a comic role."
+      }
+   },
+   {
+      "paintingID":465,
+      "title":"Children Teaching a Cat to Dance",
+      "yearOfWork":1670,
+      "imageFileName":"124040.jpg",
+      "artist":{
+         "artistID":124,
+         "firstName":"Jan",
+         "lastName":"Steen"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":68,
+      "height":59,
+      "medium":"Oil on panel",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5502",
+         "accessionNumber":"SK-A-718",
+         "copyrightText":"Public domain",
+         "excerpt":"These children are up to mischief: they are teaching a cat to dance to the music of a shawm, a 17th-century wind instrument.",
+         "cost":700,
+         "MSRP":800,
+         "description":"There is mischief-making going on here! A group of children are teaching a cat to dance, to the music of a shawm, a 17th-century wind instrument. They are clearly enjoying themselves, but the cat is screeching its displeasure, and the dog is barking loudly. An old man angrily reprimands the children from a window high in the wall of the room. Jan Steen knew how to reproduce the ear splitting din of the scene."
+      }
+   },
+   {
+      "paintingID":483,
+      "title":"The Windmill at Wijk bij Duurstede",
+      "yearOfWork":1670,
+      "imageFileName":"127010.jpg",
+      "artist":{
+         "artistID":127,
+         "firstName":"Jacob van",
+         "lastName":"Ruisdael"
+      },
+      "gallery":{
+         "galleryID":30,
+         "name":"Rijksmuseum",
+         "city":"Amsterdam",
+         "country":"Netherlands",
+         "latitude":52.36,
+         "longitude":4.885278
+      },
+      "shape":{
+         "shapeID":3,
+         "name":"Square"
+      },
+      "width":101,
+      "height":83,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://hdl.handle.net/10934/RM0001.COLLECT.5333",
+         "accessionNumber":"SK-C-211",
+         "copyrightText":"Public domain",
+         "excerpt":"The windmill rises up majestically, defying the dark rain clouds and overshadowing the castle and the church of Wijk bij Duurstede. The River Lek flows in the foreground. This painting is world famous, and rightly so.",
+         "cost":1100,
+         "MSRP":1200,
+         "description":"The windmill rises up majestically, defying the dark rain clouds and overshadowing the castle and the church of Wijk bij Duurstede. The River Lek flows in the foreground. This painting is world famous, and rightly so. In this impressive composition, Ruisdael united all the typical Dutch elements - the low-lying land, the water and the expansive sky - manipulating them to converge on the equally characteristic Dutch watermill."
+      }
+   },
+   {
+      "paintingID":501,
+      "title":"The Grand Canal in Venice from Palazzo Flangini to Campo San Marcuola",
+      "yearOfWork":1738,
+      "imageFileName":"131010.jpg",
+      "artist":{
+         "artistID":131,
+         "firstName":null,
+         "lastName":"Canaletto"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":78,
+      "height":47,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/225593/canaletto-giovanni-antonio-canal-the-grand-canal-in-venice-from-palazzo-flangini-to-campo-san-marcuola-italian-about-1738/",
+         "accessionNumber":2013.22,
+         "copyrightText":"Public domain",
+         "excerpt":"Canaletto was at the peak of his powers when he created this view of the sun-drenched palaces lining the Grand Canal and reflected in its shimmering water. With precise brushwork, he also evoked the effects of soot and crumbling stucco disfiguring the facades.",
+         "cost":900,
+         "MSRP":1100,
+         "description":"Each one of Van Gogh's irises is unique. He carefully studied their movements and shapes to create a variety of curved silhouettes bounded by wavy, twisting, and curling lines."
+      }
+   },
+   {
+      "paintingID":595,
+      "title":"The Bird Catchers",
+      "yearOfWork":1748,
+      "imageFileName":"107050.jpg",
+      "artist":{
+         "artistID":107,
+         "firstName":"Francois",
+         "lastName":"Boucher"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":294,
+      "height":337,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/590/francois-boucher-the-bird-catchers-french-1748/",
+         "accessionNumber":"71.PA.38",
+         "copyrightText":"Public domain",
+         "excerpt":"Responding to the contemporary rage for pastorals depicting amorous countryside games, Francois Boucher here exhibited young, fashionable couples in the act of catching birds.",
+         "cost":1600,
+         "MSRP":2000,
+         "description":"Responding to the contemporary rage for pastorals depicting amorous countryside games, Francois Boucher here exhibited young, fashionable couples in the act of catching birds. In the 1700s, small birds played an important symbolic role in courtship ritual: the gift of a caged bird from a man to a woman signified her capture of his heart. Posed in front of the ruins of a temple to Vesta, young aristocratic women dressed in exquisite finery play with small birds; some still hold them on strings while others daintily hold them on their fingers."
+      }
+   },
+   {
+      "paintingID":577,
+      "title":"The Bath of Venus",
+      "yearOfWork":1751,
+      "imageFileName":"107040.jpg",
+      "artist":{
+         "artistID":107,
+         "firstName":"Francois",
+         "lastName":"Boucher"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":84,
+      "height":107,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.12200.html",
+         "accessionNumber":"1943.7.2",
+         "copyrightText":"Open Access",
+         "excerpt":"In The Bath of Venus, the mythological goddess has lost any allusions to classical history painting and is offered up to the viewer as an object of physical beauty.",
+         "cost":700,
+         "MSRP":900,
+         "description":"In The Bath of Venus, the mythological goddess has lost any allusions to classical history painting and is offered up to the viewer as an object of physical beauty. Venus, located in a lush garden setting, coyly attempts to restrain a pouting Cupid as two putti point to the scene in mocking disapproval. Boucher's success in communicating the charm and sensuality of the nude lies in his mastery of color and fluid brushstrokes. Venus is rendered in porcelain tones, delicately accented in pink, her body highlighted against luscious blue velvet and silk. The two white doves at her feet contrast a thick impasto surface with the transparent water and cool greens and blues of the foliage. The painting exemplifies the rococo love of asymmetric lines and sinuous curves, artfully arranged to seduce both the eye and the mind of the beholder."
+      }
+   },
+   {
+      "paintingID":430,
+      "title":"Still Life with Peaches, a Silver Goblet, Grapes, and Walnuts",
+      "yearOfWork":1759,
+      "imageFileName":"108010.jpg",
+      "artist":{
+         "artistID":108,
+         "firstName":"Jean-Baptiste-Simeon",
+         "lastName":"Chardin"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":2,
+         "name":"Landscape"
+      },
+      "width":46,
+      "height":38,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/793/jean-simeon-chardin-still-life-with-peaches-a-silver-goblet-grapes-and-walnuts-french-about-1759-1760/",
+         "accessionNumber":"86.PA.544",
+         "copyrightText":"Public domain",
+         "excerpt":" In this small still life, Chardin portrayed a modest subject--three walnuts, four peaches, two bunches of grapes, and a pewter mug--but gave the objects monumentality by arranging them in pure geometric groupings and concentrating on their basic forms. He suggested the objects' various textures and substances through the play of light across surfaces and successive applications of paint. In this way, Chardin conveyed the fuzzy skin of the peaches, the hard, brittle shell of the walnuts, the translucence of the grapes, and the heavy, cold exterior of the pewter mug.",
+         "cost":500,
+         "MSRP":550,
+         "description":"In still lifes, genre scenes, and the occasional portrait, Chardin's skill at rendering the visual and tactile qualities of simple objects won him the admiration of critics like Diderot. In this small still life, Chardin portrayed a modest subject--three walnuts, four peaches, two bunches of grapes, and a pewter mug--but gave the objects monumentality by arranging them in pure geometric groupings and concentrating on their basic forms. He suggested the objects' various textures and substances through the play of light across surfaces and successive applications of paint. In this way, Chardin conveyed the fuzzy skin of the peaches, the hard, brittle shell of the walnuts, the translucence of the grapes, and the heavy, cold exterior of the pewter mug."
+      }
+   },
+   {
+      "paintingID":576,
+      "title":"Madame Bergeret",
+      "yearOfWork":1766,
+      "imageFileName":"107030.jpg",
+      "artist":{
+         "artistID":107,
+         "firstName":"Francois",
+         "lastName":"Boucher"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":105,
+      "height":143,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.32681.html",
+         "accessionNumber":"1946.7.3",
+         "copyrightText":"Open Access",
+         "excerpt":"In this portrait he defines the chic of that decade: Madame Bergeret is placed in a garden setting, dressed in a creamy silk gown, tight in the bodice with\r\npuffed sleeves highlighted with blue ribbons.",
+         "cost":900,
+         "MSRP":1200,
+         "description":"In the 1740s Boucher was establishing himself as a mature painter in Parisian art circles. In this portrait he defines the chic of that decade: Madame Bergeret is placed in a garden setting, dressed in a creamy silk gown, tight in the bodice with\r\npuffed sleeves highlighted with blue ribbons. Her face glows with youth and beauty depicted in translucent whites. The most important motif, and the charm of the composition, is the profusion of roses -- emerging from a bronze vase, decorating her sleeves and hair, and arranged across the bench and on the foreground plane. Sacred to Venus, the rose was a symbol well suited for a portrait of Bergeret's beloved wife."
+      }
+   },
+   {
+      "paintingID":496,
+      "title":"Still Life with Fish, Vegetables, Gougres, Pots, and Cruets on a Table",
+      "yearOfWork":1769,
+      "imageFileName":"108020.jpg",
+      "artist":{
+         "artistID":108,
+         "firstName":"Jean-Baptiste-Simeon",
+         "lastName":"Chardin"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":58,
+      "height":68,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/201125/jean-simeon-chardin-still-life-with-fish-vegetables-gougeres-pots-and-cruets-on-a-table-french-1769/",
+         "accessionNumber":2003.13,
+         "copyrightText":"Public domain",
+         "excerpt":"Chardin here transforms a simple kitchen scene with a subtle palette, innovative composition, and virtuoso brushwork",
+         "cost":800,
+         "MSRP":950,
+         "description":"The objects' arrangement is spare but dynamic: Two mackerels hang vertically in front of a plain background, perpendicular to an arrangement of food on the tabletop below. Brilliant light directs the eye, attracting attention to the shiny fish, leafy greens, root vegetables, a wheel of cheese, and covered bowls. Although the overall palette is subdued, the oil and vinegar cruets are infused with rich color. The signature and date in the lower right corner are the last Chardin is known to have applied to a still life."
+      }
+   },
+   {
+      "paintingID":497,
+      "title":"The Vicomtesse de Vaudreuil",
+      "yearOfWork":1785,
+      "imageFileName":"113020.jpg",
+      "artist":{
+         "artistID":113,
+         "firstName":"Elisabeth Louise",
+         "lastName":"Lebrun"
+      },
+      "gallery":{
+         "galleryID":27,
+         "name":"J. Paul Getty Museum",
+         "city":"Los Angeles",
+         "country":"USA",
+         "latitude":34.0775,
+         "longitude":-118.475
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":64,
+      "height":83,
+      "medium":"Oil on canvas",
+      "details":{
+         "museumLink":"http://www.getty.edu/art/collection/objects/782/elisabeth-louise-vigee-le-brun-the-vicomtesse-de-vaudreuil-french-1785/",
+         "accessionNumber":"85.PB.443",
+         "copyrightText":"Public domain",
+         "excerpt":"The artist Elisabeth Louise Vigee Le Brun emphasized the Vicomtesse's status and refinement by carefully describing her fashionable straw hat, silk dress, and gauze scarf, collar, and cuffs. Displaying her learning, the Vicomtesse places her right thumb in her book to mark her place, as if she has been interrupted while reading.",
+         "cost":700,
+         "MSRP":900,
+         "description":"On an oval panel, a young woman poses in front of a landscape. Smiling slightly, she looks candidly out at the viewer. The sitter, Victoire-Pauline de Riquet de Carama, was an aristocrat and her status improved when she married Jean-Louis, Vicomte de Vaudreuil in 1781. The artist Elisabeth Louise Vigee Le Brun emphasized the Vicomtesse's status and refinement by carefully describing her fashionable straw hat, silk dress, and gauze scarf, collar, and cuffs. Displaying her learning, the Vicomtesse places her right thumb in her book to mark her place, as if she has been interrupted while reading. Vigee Le Brun adopted this obvious gesture, often used in men's portraits, to illustrate women's importance in French Enlightenment circles."
+      }
+   },
+   {
+      "paintingID":436,
+      "title":"Mrs. Richard Brinsley Sheridan",
+      "yearOfWork":1787,
+      "imageFileName":"110040.jpg",
+      "artist":{
+         "artistID":110,
+         "firstName":"Thomas",
+         "lastName":"Gainsborough"
+      },
+      "gallery":{
+         "galleryID":7,
+         "name":"National Gallery of Art",
+         "city":"Washington, DC",
+         "country":"USA",
+         "latitude":38.89147,
+         "longitude":-77.02001
+      },
+      "shape":{
+         "shapeID":1,
+         "name":"Portrait"
+      },
+      "width":219,
+      "height":153,
+      "medium":"Oil on Canvas",
+      "details":{
+         "museumLink":"http://www.nga.gov/content/ngaweb/Collection/art-object-page.99.html",
+         "accessionNumber":"1937.1.92",
+         "copyrightText":"Open Access",
+         "excerpt":"Mrs. Sheridan (Elizabeth Ann Linley) was a talented musician who enjoyed professional success in Bath and London before marrying Richard Brinsley Sheridan in 1773 and abandoning her career.",
+         "cost":550,
+         "MSRP":625,
+         "description":"Mrs. Richard Brinsley Sheridan is an oil on canvas portrait painted by Thomas Gainsborough between 1785 and 1787. It was acquired by the National Gallery of Art in 1937. Mrs. Sheridan (Elizabeth Ann Linley) was a talented musician who enjoyed professional success in Bath and London before marrying Richard Brinsley Sheridan in 1773 and abandoning her career. She was 31 when she sat for Gainsborough. She died from tuberculosis at the age of thirty-eight."
+      }
+   }
+]

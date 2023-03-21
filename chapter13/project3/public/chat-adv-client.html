@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter 20</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="chat-adv-client.css">	
+   
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat-adv-client.js"></script>
+</head>
+<body>
+
+<main>
+    <aside class="chat">
+        <section id="users">
+            <ul>                            
+            </ul>
+        </section>
+        <section id="messages">
+
+            <div class="messages-header">
+                <h3>Chat</h3>
+                <div class="form-button">
+                    <button id="leave">Leave</button>
+                </div>                
+            </div>
+
+
+            <div class="messages-body">
+                <ul>
+                </ul>
+            </div>
+
+
+            <div class="messages-footer">
+                <form id="chatForm" >
+                    <input type="text" id="entry" />
+                    <div class="form-button">
+                        <button type="submit">Send</button>
+                    </div>
+                    
+                </form>        
+            </div>
+
+        </section>
+
+    </aside>                              
+</main>    
+</body>
+</html>
